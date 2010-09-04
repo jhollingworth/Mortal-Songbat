@@ -1,1 +1,2 @@
 C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dev\MortalSongbat\Game\data\obj\x86\Debug\ResolveAssemblyReference.cache

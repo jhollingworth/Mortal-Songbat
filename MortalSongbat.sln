@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{A258724B-E34A-4F2C-A844-131F8E44816B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortalSongbat", "Game\MortalSongbat.csproj", "{A258724B-E34A-4F2C-A844-131F8E44816B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

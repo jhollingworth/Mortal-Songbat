@@ -1,5 +1,3 @@
-#region
-
 using System.Collections;
 using GarageGames.Torque.GUI;
 using GarageGames.Torque.Platform;
@@ -9,9 +7,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-#endregion
-
-namespace StarterGame2D
+namespace MortalSongbat.GUI
 {
     internal class GuiMainMenu : GUIBitmap, IGUIScreen
     {

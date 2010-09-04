@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\CreditsScreen.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\CreditsScreen.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\HelpScreen.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\HelpScreen.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\MainMenuScreen.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\MainMenuScreen.xnb</Output>
       <Time>2010-09-03T22:32:31.791+01:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\splashStudio.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\splashStudio.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\StartScreen.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\StartScreen.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\Target.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Target.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\TX_BG.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TX_BG.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\trident-d.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\trident-d.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\trident-normal-1.xnb</Output>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\trident-normal-1.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -87,10 +87,10 @@
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\data\</RootDirectory>
-      <LoggerRootDirectory>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\data\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\</OutputDirectory>
+      <RootDirectory>C:\Dev\MortalSongbat\Game\data\</RootDirectory>
+      <LoggerRootDirectory>C:\Dev\MortalSongbat\Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Dev\MortalSongbat\Game\data\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -1,7 +1,8 @@
 using GarageGames.Torque.GameUtil;
 using GarageGames.Torque.GUI;
+using MortalSongbat.GUI;
 
-namespace StarterGame2D
+namespace MortalSongbat
 {
     /// <summary>
     /// This is the main game class for your game
@@ -27,7 +28,6 @@ namespace StarterGame2D
             // Create the static game instance.  
             _myGame = new Game();
 
-            // begin the game.  Further setup is done in BeginRun()
             _myGame.Run();
         }
 

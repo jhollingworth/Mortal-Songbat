@@ -17,3 +17,22 @@ C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\obj\x86\Debug\StarterGame2D.exe
 C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\obj\x86\Debug\StarterGame2D.pdb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\torqueSettings.xml
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\CreditsScreen.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\HelpScreen.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\MainMenuScreen.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\splashStudio.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\StartScreen.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Target.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TX_BG.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\trident-d.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\trident-normal-1.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\levels\levelData.txscene
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\StarterGame2D.exe
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\StarterGame2D.pdb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\GarageGames.TorqueX.Framework.dll
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\GarageGames.TorqueX.Framework2D.dll
+C:\Dev\MortalSongbat\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dev\MortalSongbat\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Dev\MortalSongbat\Game\obj\x86\Debug\StarterGame2D.exe
+C:\Dev\MortalSongbat\Game\obj\x86\Debug\StarterGame2D.pdb

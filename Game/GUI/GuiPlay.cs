@@ -1,13 +1,9 @@
-﻿#region
-
-using GarageGames.Torque.GUI;
+﻿using GarageGames.Torque.GUI;
 using GarageGames.Torque.MathUtil;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-#endregion
-
-namespace StarterGame2D
+namespace MortalSongbat.GUI
 {
     public class GuiPlay : GUISceneview, IGUIScreen
     {

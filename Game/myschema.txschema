@@ -62,7 +62,7 @@
         <Type>System.Single</Type>
       </Element>
     </Type>
-    <Type name="MovementComponent" fullName="StarterGame2D.MovementComponent">
+    <Type name="MovementComponent" fullName="MortalSongbat.MovementComponent">
       <Dependencies>
         <Type>GarageGames.Torque.T2D.T2DPhysicsComponent</Type>
       </Dependencies>
@@ -1245,7 +1245,7 @@
         <Type>GarageGames.Torque.T2D.T2DSizeAnimComponent</Type>
         <Type>GarageGames.Torque.T2D.T2DTriggerComponent</Type>
         <Type>GarageGames.Torque.T2D.T2DWorldLimitComponent</Type>
-        <Type>StarterGame2D.MovementComponent</Type>
+        <Type>MortalSongbat.MovementComponent</Type>
       </DerivedTypes>
       <IsInstantiable>false</IsInstantiable>
       <Element name="Components">
