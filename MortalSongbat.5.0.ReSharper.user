@@ -8,48 +8,48 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:Docs/f:StarterGame2D.html" caret="0" fromTop="0" />
-      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="4518" fromTop="17" />
       <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.txproj" caret="617" fromTop="1" />
       <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:myschema.txschema" caret="50573" fromTop="15" />
       <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:Enums.cs" caret="154" fromTop="8" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="727" fromTop="27" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="2349" fromTop="16" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiMainMenu.cs" caret="1310" fromTop="12" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="574" fromTop="15" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="2195" fromTop="12" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="432" fromTop="7" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="1308" fromTop="28" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="3861" fromTop="19" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="5559" fromTop="20" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="5869" fromTop="11" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiMainMenu.cs" caret="2411" fromTop="10" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="3961" fromTop="18" />
     </RecentFiles>
     <RecentEdits>
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="2921" fromTop="13" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="0" fromTop="0" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="611" fromTop="0" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="2544" fromTop="23" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="2400" fromTop="26" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="5587" fromTop="21" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="281" fromTop="9" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="997" fromTop="12" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="1220" fromTop="0" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="1914" fromTop="9" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="656" fromTop="23" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="850" fromTop="28" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="965" fromTop="33" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="458" fromTop="10" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="359" fromTop="10" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiMainMenu.cs" caret="636" fromTop="15" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="1080" fromTop="22" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="2349" fromTop="16" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="727" fromTop="27" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiMainMenu.cs" caret="791" fromTop="12" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiMainMenu.cs" caret="1535" fromTop="13" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiMainMenu.cs" caret="1324" fromTop="16" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="526" fromTop="13" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="1639" fromTop="6" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="1524" fromTop="20" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="2245" fromTop="16" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="2658" fromTop="23" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="2658" fromTop="23" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="1916" fromTop="6" />
-      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="2195" fromTop="12" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="4006" fromTop="31" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="598" fromTop="14" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="3405" fromTop="24" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="3242" fromTop="22" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="2171" fromTop="16" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="2653" fromTop="33" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="1507" fromTop="4" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="5571" fromTop="13" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="5869" fromTop="11" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="275" fromTop="9" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="3913" fromTop="16" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="4093" fromTop="26" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="5377" fromTop="29" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="432" fromTop="7" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="2775" fromTop="15" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="2948" fromTop="19" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="4440" fromTop="31" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="2318" fromTop="33" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="2282" fromTop="29" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="1647" fromTop="16" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="273" fromTop="2" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="423" fromTop="7" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="1563" fromTop="21" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:AiPlayer.cs" caret="1319" fromTop="16" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="5425" fromTop="18" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="5543" fromTop="20" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="5681" fromTop="29" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="5681" fromTop="31" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="2108" fromTop="16" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiMainMenu.cs" caret="2411" fromTop="10" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -72,16 +72,16 @@
       <Item value="Keys`0" priority="1" />
       <Item value="Jump`0" priority="1" />
       <Item value="_SetupInputMap`0" priority="0" />
-      <Item value="_sceneObject" priority="9" />
-      <Item value="new" priority="5" />
-      <Item value="Vector2" priority="2" />
-      <Item value="if" priority="9" />
-      <Item value="public" priority="3" />
+      <Item value="_sceneObject" priority="14" />
+      <Item value="new" priority="12" />
+      <Item value="Vector2" priority="7" />
+      <Item value="if" priority="27" />
+      <Item value="public" priority="7" />
       <Item value="enum" priority="1" />
-      <Item value="int" priority="1" />
+      <Item value="int" priority="4" />
       <Item value="Action" priority="8" />
-      <Item value="var" priority="2" />
-      <Item value="sceneObject" priority="1" />
+      <Item value="var" priority="6" />
+      <Item value="sceneObject" priority="3" />
       <Item value="null" priority="2" />
       <Item value="MovementComponent`0" priority="0" />
       <Item value="movement" priority="2" />
@@ -89,22 +89,39 @@
       <Item value="Left" priority="0" />
       <Item value="Walking" priority="0" />
       <Item value="elapsed" priority="1" />
-      <Item value="else" priority="0" />
-      <Item value="true" priority="1" />
+      <Item value="else" priority="6" />
+      <Item value="true" priority="2" />
       <Item value="false" priority="1" />
-      <Item value="T2DAnimatedSprite`0" priority="1" />
+      <Item value="T2DAnimatedSprite`0" priority="7" />
       <Item value="Flower`0" priority="0" />
       <Item value="T2DAnimationComponent`0" priority="0" />
       <Item value="flower" priority="0" />
       <Item value="_xmlGuiChildren" priority="0" />
       <Item value="AiPlayer`0" priority="0" />
       <Item value="_aiPlayer" priority="1" />
-      <Item value="_player" priority="4" />
-      <Item value="_count" priority="3" />
+      <Item value="_player" priority="14" />
+      <Item value="_count" priority="4" />
       <Item value="Vector2`0" priority="0" />
       <Item value="T2DSceneObject`0" priority="0" />
       <Item value="buttonStyle" priority="1" />
       <Item value="option1" priority="0" />
+      <Item value="_actualPlayer" priority="5" />
+      <Item value="Random`0" priority="1" />
+      <Item value="bool" priority="0" />
+      <Item value="_random" priority="1" />
+      <Item value="float" priority="1" />
+      <Item value="tempMass" priority="0" />
+      <Item value="Math`0" priority="0" />
+      <Item value="player" priority="5" />
+      <Item value="PlayerCollision`0" priority="2" />
+      <Item value="theirObject" priority="1" />
+      <Item value="is" priority="0" />
+      <Item value="OutOfVideoMemoryException`0" priority="0" />
+      <Item value="Game" priority="8" />
+      <Item value="string" priority="0" />
+      <Item value="T2DOnCollisionDelegate`0" priority="0" />
+      <Item value="ai" priority="1" />
+      <Item value="double" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GarageGames.Torque.Sim.InputMap">
       <Item value="BindCommand`0" priority="2" />
@@ -112,22 +129,25 @@
     <ItemStatistics item="Qualified:@Microsoft.Xna.Framework.Input.Keys">
       <Item value="Space" priority="0" />
       <Item value="F" priority="0" />
+      <Item value="Q" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GarageGames.Torque.T2D.T2DSceneObject">
-      <Item value="Physics" priority="9" />
-      <Item value="Position" priority="0" />
+      <Item value="Physics" priority="23" />
+      <Item value="Position" priority="6" />
       <Item value="Components" priority="0" />
-      <Item value="FlipX" priority="0" />
+      <Item value="FlipX" priority="1" />
+      <Item value="Collision" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GarageGames.Torque.T2D.T2DPhysicsComponent">
-      <Item value="ApplyImpulse`0" priority="3" />
-      <Item value="InverseMass" priority="0" />
-      <Item value="Mass" priority="0" />
-      <Item value="VelocityX" priority="1" />
+      <Item value="ApplyImpulse`0" priority="8" />
+      <Item value="InverseMass" priority="3" />
+      <Item value="Mass" priority="2" />
+      <Item value="VelocityX" priority="4" />
       <Item value="VelocityY" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Microsoft.Xna.Framework.Vector2">
-      <Item value="X" priority="0" />
+      <Item value="X" priority="4" />
+      <Item value="Y" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@GarageGames.Torque.Core.TorqueObjectDatabase">
       <Item value="Instance" priority="0" />
@@ -150,13 +170,46 @@
       <Item value="Walking" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GarageGames.Torque.T2D.T2DAnimatedSprite">
-      <Item value="PlayAnimation`0" priority="1" />
+      <Item value="PlayAnimation`0" priority="3" />
+      <Item value="AnimationData" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GarageGames.Torque.T2D.T2DAnimationData">
       <Item value="AnimationDuration" priority="0" />
+      <Item value="Name" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Threading.Thread">
       <Item value="Sleep`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Single">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Abs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GarageGames.Torque.T2D.T2DCollisionComponent">
+      <Item value="OnCollision" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MortalSongbat.Game">
+      <Item value="Instance" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MortalSongbat.Game">
+      <Item value="PlayerScore" priority="0" />
+      <Item value="PlayerHealth" priority="3" />
+      <Item value="AiHealth" priority="2" />
+      <Item value="Player" priority="3" />
+      <Item value="Ai" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GarageGames.Torque.GameUtil.SoundManager">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GarageGames.Torque.GameUtil.SoundManager">
+      <Item value="RegisterSoundGroup`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

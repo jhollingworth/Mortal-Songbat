@@ -14,8 +14,11 @@ namespace MortalSongbat
         }
 
         public int Player1ControllerIndex { get; set; }
-        public int PlayerScore { get; set; }
-        public int HealthLevel { get; set; }
+        public double PlayerHealth { get; set; }
+        public double AiHealth { get; set; }
+
+        public string Player { get; set; }
+        public string Ai { get; set; }
 
         public static void Main()
         {

@@ -73,6 +73,33 @@
       <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\wall.xnb</Output>
       <Time>2010-09-04T17:22:38.897+01:00</Time>
     </Item>
+    <Item>
+      <Source>images\jacksonStanding-01.png</Source>
+      <Name>images\jacksonStanding-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\jacksonStanding-01.xnb</Output>
+      <Time>2010-09-04T18:25:42.576+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\JacksonWalking-01.png</Source>
+      <Name>images\JacksonWalking-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\JacksonWalking-01.xnb</Output>
+      <Time>2010-09-04T18:43:13.009+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\PeteStanding-01.png</Source>
+      <Name>images\PeteStanding-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\PeteStanding-01.xnb</Output>
+      <Time>2010-09-04T20:45:52.642+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

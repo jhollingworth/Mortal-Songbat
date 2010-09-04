@@ -157,11 +157,11 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Docs\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Content Include="Docs\StarterGame2D.html">
-      <Name>StarterGame2D</Name>
-    </Content>
     <Content Include="Game.ico">
       <Name>Game</Name>
     </Content>

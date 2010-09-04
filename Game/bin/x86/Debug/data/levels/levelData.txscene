@@ -70,6 +70,42 @@
             <IsTranslucent>false</IsTranslucent>
             <IsAdditive>false</IsAdditive>
         </SimpleMaterial>
+        <SimpleMaterial name="TGB_RDT_PlantMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/TGB_RDT_Plant.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>6</CellCountX>
+                <CellCountY>3</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="jacksonStanding01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/jacksonStanding-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="JacksonWalking01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/JacksonWalking-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="PeteStanding01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/PeteStanding-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
     </Materials>
     <Objects>
         <T2DCollisionMaterial name="DefaultCollisionMaterial">
@@ -85,6 +121,30 @@
         </AnimationData>
         <AnimationData name="gagaStanding">
             <Material nameRef="standingGaga01Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.5</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="gagaSpecialMove">
+            <Material nameRef="TGB_RDT_PlantMaterial" />
+            <AnimationFrames>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</AnimationFrames>
+            <AnimationDuration>0.6</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="jacksonStanding">
+            <Material nameRef="jacksonStanding01Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.444444</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="jacksonWalking">
+            <Material nameRef="JacksonWalking01Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.4</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="peteStanding">
+            <Material nameRef="PeteStanding01Material" />
             <AnimationFrames>0 1 2 3</AnimationFrames>
             <AnimationDuration>0.5</AnimationDuration>
             <AnimationCycle>true</AnimationCycle>
@@ -198,7 +258,7 @@
             </Size>
             <Position>
                 <X>-40.000</X>
-                <Y>22.949</Y>
+                <Y>21.980</Y>
             </Position>
             <Rotation>0</Rotation>
             <CollisionsEnabled>true</CollisionsEnabled>

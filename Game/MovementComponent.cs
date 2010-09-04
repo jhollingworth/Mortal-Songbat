@@ -46,7 +46,7 @@ namespace MortalSongbat
                     if(Action != Action.Walking)
                     {
                         ((T2DAnimatedSprite)_sceneObject).PlayAnimation(
-                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>("gagaWalking")
+                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>(Game.Instance.Player + "Walking")
                         );
                     }
 
@@ -67,7 +67,7 @@ namespace MortalSongbat
                     if (Action != Action.Walking)
                     {
                         ((T2DAnimatedSprite)_sceneObject).PlayAnimation(
-                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>("gagaWalking")
+                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>(Game.Instance.Player + "Walking")
                         );
                     }
 
@@ -81,7 +81,7 @@ namespace MortalSongbat
                     if (Action != Action.Standing)
                     {
                         ((T2DAnimatedSprite)_sceneObject).PlayAnimation(
-                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>("gagaStanding")
+                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>(Game.Instance.Player + "Standing")
                         );
                     }
 
@@ -145,7 +145,7 @@ namespace MortalSongbat
                 inputMap.BindCommand(keyboardId, (int) Keys.W, Jump, null);
                 inputMap.BindMove(keyboardId, (int) Keys.S, MoveMapTypes.StickDigitalDown, 0);
                 inputMap.BindCommand(keyboardId, (int) Keys.Space, Jump, null);
-                inputMap.BindCommand(keyboardId, (int) Keys.F, Flower, null);
+                inputMap.BindCommand(keyboardId, (int) Keys.Q, SpecialMove, null);
             }
         }
 
@@ -157,10 +157,10 @@ namespace MortalSongbat
             }
         }
 
-        private void Flower()
+        private void SpecialMove()
         {
             ((T2DAnimatedSprite) _sceneObject).PlayAnimation(
-                TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>("FlowerAnimation"), true
+                TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>(Game.Instance.Player + "SpecialMove"), true
             );
         }
 

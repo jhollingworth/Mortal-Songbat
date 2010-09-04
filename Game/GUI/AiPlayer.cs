@@ -1,4 +1,5 @@
 ﻿using System;
+using GarageGames.Torque.Core;
 using GarageGames.Torque.T2D;
 using Microsoft.Xna.Framework;
 
@@ -6,13 +7,13 @@ namespace MortalSongbat.GUI
 {
     public class AiPlayer
     {
-        private readonly T2DSceneObject _player;
-        private readonly T2DSceneObject _actualPlayer;
+        private readonly T2DAnimatedSprite _player;
+        private readonly T2DAnimatedSprite _actualPlayer;
 
         private int _count;
         private Random _random;
 
-        public AiPlayer(T2DSceneObject player, T2DSceneObject actualPlayer)
+        public AiPlayer(T2DAnimatedSprite player, T2DAnimatedSprite actualPlayer)
         {
             _player = player;
             _actualPlayer = actualPlayer;
@@ -37,24 +38,38 @@ namespace MortalSongbat.GUI
                 }
             }
 
-            if(Math.Abs(_player.Position.X - _actualPlayer.Position.X) < 1)
+            if (Math.Abs(_player.Position.X - _actualPlayer.Position.X) < 10)
             {
-                if (_player.Position.X > _actualPlayer.Position.X)
+                if(_random.Next(100) % 2 == 0 && _count % 50 == 0)
                 {
-                    _player.Physics.ApplyImpulse(new Vector2(3, 0));
-                    _player.FlipX = true;
+                        _player.PlayAnimation(
+                        TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>(Game.Instance.Ai + "SpecialMove"),
+                        true
+                    );
                 }
-                else if (_player.Position.X < _actualPlayer.Position.X)
+                else
                 {
-                    _player.Physics.ApplyImpulse(new Vector2(-3, 0));
-                    _player.FlipX = false;
+                    if (Math.Abs(_player.Position.X - _actualPlayer.Position.X) < 1)
+                    {
+                        if (_player.Position.X > _actualPlayer.Position.X)
+                        {
+                            _player.Physics.ApplyImpulse(new Vector2(3, 0));
+                            _player.FlipX = true;
+                        }
+                        else if (_player.Position.X < _actualPlayer.Position.X)
+                        {
+                            _player.Physics.ApplyImpulse(new Vector2(-3, 0));
+                            _player.FlipX = false;
+                        }
+                    }
                 }
+
             }
 
 
             if (_player.Physics.VelocityY != 0)
             {
-                _player.Physics.ApplyImpulse(new Vector2(0, 2));
+                _player.Physics.ApplyImpulse(new Vector2(0, 1));
             }
 
             _count++;

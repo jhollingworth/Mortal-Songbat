@@ -119,4 +119,25 @@
       <Name>wall</Name>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="images\jacksonStanding-01.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>jacksonStanding-01</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="images\JacksonWalking-01.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>JacksonWalking-01</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="images\PeteStanding-01.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>PeteStanding-01</Name>
+    </Compile>
+  </ItemGroup>
 </Project>

@@ -6,4 +6,7 @@ data\images\gaga-01.xnb
 data\images\LandingPage.xnb
 data\images\standingGaga-01.xnb
 data\images\wall.xnb
+data\images\jacksonStanding-01.xnb
+data\images\JacksonWalking-01.xnb
+data\images\PeteStanding-01.xnb
 data\levels\levelData.txscene

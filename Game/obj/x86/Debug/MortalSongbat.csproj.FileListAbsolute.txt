@@ -16,3 +16,6 @@ C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\gaga-01.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\LandingPage.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\standingGaga-01.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\wall.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\jacksonStanding-01.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\JacksonWalking-01.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\PeteStanding-01.xnb

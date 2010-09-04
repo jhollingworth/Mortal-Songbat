@@ -56,6 +56,9 @@ namespace MortalSongbat.GUI
 
             //setup the input map
             SetupInputMap();
+
+            Game.Instance.Player = "pete";
+            Game.Instance.Ai = "gaga";
         }
 
         private void SetupInputMap()
