@@ -7,12 +7,14 @@ namespace MortalSongbat.GUI
     public class AiPlayer
     {
         private readonly T2DSceneObject _player;
+        private readonly T2DSceneObject _actualPlayer;
 
         private int _count;
 
-        public AiPlayer(T2DSceneObject player)
+        public AiPlayer(T2DSceneObject player, T2DSceneObject actualPlayer)
         {
             _player = player;
+            _actualPlayer = actualPlayer;
 
             _count = 0;
         }
@@ -29,12 +31,12 @@ namespace MortalSongbat.GUI
                 _player.Physics.ApplyImpulse(new Vector2(-5, 0));
             }
 
-            if (_player.Physics.VelocityY > 0)
+            if (_player.Physics.VelocityY < 0)
             {
-                _player.Physics.ApplyImpulse(new Vector2(0, -1));
+                _player.Physics.ApplyImpulse(new Vector2(0, 1));
             }
 
-        _count++;
+            _count++;
         }
     }
 }

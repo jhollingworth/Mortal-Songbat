@@ -13,3 +13,4 @@ C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Baby.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\ground.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TGB_RDT_Plant.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\gaga-01.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\LandingPage.xnb

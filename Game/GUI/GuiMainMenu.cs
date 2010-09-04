@@ -18,7 +18,7 @@ namespace MortalSongbat.GUI
             //create the style for the main menu background
             var bitmapStyle = new GUIBitmapStyle();
             Style = bitmapStyle;
-            Bitmap = @"data\images\MainMenuScreen";
+            Bitmap = @"data\images\LandingPage";
 
             //create the style for the menu buttons
             var buttonStyle = new GUIButtonStyle();

@@ -46,6 +46,15 @@
       <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\gaga-01.xnb</Output>
       <Time>2010-09-04T16:44:42.487+01:00</Time>
     </Item>
+    <Item>
+      <Source>images\LandingPage.png</Source>
+      <Name>images\LandingPage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\LandingPage.xnb</Output>
+      <Time>2010-09-04T17:05:50.734+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

@@ -29,14 +29,14 @@ namespace MortalSongbat
         {
             base.BeginRun();
 
-            //start by showing the GarageGames splash screen
-            //var splashScreen = new GuiMainMenu() ;
-            //GUICanvas.Instance.SetContentControl(splashScreen);
+        //    start by showing the GarageGames splash screen
+            var splashScreen = new GuiMainMenu() ;
+            GUICanvas.Instance.SetContentControl(splashScreen);
 
-            var playGUI = new GuiPlay();
-            GUICanvas.Instance.SetContentControl(playGUI);
+            //var playGUI = new GuiPlay();
+            //GUICanvas.Instance.SetContentControl(playGUI);
 
-            Game.Instance.SceneLoader.Load(@"data\levels\levelData.txscene");
+            //Instance.SceneLoader.Load(@"data\levels\levelData.txscene");
         }
     }
 }

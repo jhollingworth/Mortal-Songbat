@@ -42,6 +42,11 @@
             <IsTranslucent>false</IsTranslucent>
             <IsAdditive>false</IsAdditive>
         </SimpleMaterial>
+        <SimpleMaterial name="groundMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/ground.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
         <SimpleMaterial name="gaga01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
             <TextureFilename>data/images/gaga-01.png</TextureFilename>
             <IsTranslucent>false</IsTranslucent>
@@ -50,11 +55,6 @@
                 <CellCountX>4</CellCountX>
                 <CellCountY>1</CellCountY>
             </TextureDivider>
-        </SimpleMaterial>
-        <SimpleMaterial name="groundMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
-            <TextureFilename>data/images/ground.jpg</TextureFilename>
-            <IsTranslucent>false</IsTranslucent>
-            <IsAdditive>false</IsAdditive>
         </SimpleMaterial>
     </Materials>
     <Objects>
@@ -66,7 +66,7 @@
         <AnimationData name="gaga01Animation">
             <Material nameRef="gaga01Material" />
             <AnimationFrames>0 1 2 3</AnimationFrames>
-            <AnimationDuration>0.4</AnimationDuration>
+            <AnimationDuration>0.266667</AnimationDuration>
             <AnimationCycle>true</AnimationCycle>
         </AnimationData>
         <AnimatedSprite name="Player1">

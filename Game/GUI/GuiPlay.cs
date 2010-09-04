@@ -59,7 +59,9 @@ namespace MortalSongbat.GUI
         {
             if(_aiPlayer == null)
             {
-                _aiPlayer = new AiPlayer(TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player2"));
+                _aiPlayer = new AiPlayer(
+                    TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player2"),
+                    TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player1"));
             }
 
             _aiPlayer.Render();
