@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\ground.xnb</Output>
-      <Time>2010-09-04T14:02:14.762+01:00</Time>
+      <Time>2010-09-04T16:48:36.012+01:00</Time>
     </Item>
     <Item>
       <Source>images\TGB_RDT_Plant.png</Source>
@@ -36,6 +36,15 @@
       <Options>None</Options>
       <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TGB_RDT_Plant.xnb</Output>
       <Time>2010-09-04T13:20:03.574+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\gaga-01.png</Source>
+      <Name>images\gaga-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\gaga-01.xnb</Output>
+      <Time>2010-09-04T16:44:42.487+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -19,12 +19,22 @@ namespace MortalSongbat.GUI
 
         public void Render()
         {
-            if(_count % 10000 == 0)
+            if (_count%60 == 0)
             {
-                _player.Physics.ApplyImpulse(new Vector2(-1, 0));
+                _player.Physics.ApplyImpulse(new Vector2(-3, 0));
             }
 
-            _count++;
+            if (_player.Physics.VelocityX > 0)
+            {
+                _player.Physics.ApplyImpulse(new Vector2(-5, 0));
+            }
+
+            if (_player.Physics.VelocityY > 0)
+            {
+                _player.Physics.ApplyImpulse(new Vector2(0, -1));
+            }
+
+        _count++;
         }
     }
 }
