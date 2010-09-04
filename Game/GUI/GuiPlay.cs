@@ -70,7 +70,9 @@ namespace MortalSongbat.GUI
 
             if(sceneObject != null)
             {
+
                 var movement = sceneObject.Components.FindComponent<MovementComponent>();
+
 
                 if(movement != null)
                 {

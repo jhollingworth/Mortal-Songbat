@@ -31,7 +31,7 @@ namespace MortalSongbat.GUI
             buttonStyle.Focusable = true;
 
             float positionX = 640;
-            float positionY = 400;
+            float positionY = 200;
 
             var option1 = new GUIButton();
             option1.Style = buttonStyle;

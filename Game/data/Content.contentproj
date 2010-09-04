@@ -105,4 +105,18 @@
       <Name>LandingPage</Name>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="images\standingGaga-01.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>standingGaga-01</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="images\wall.jpg">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>wall</Name>
+    </Compile>
+  </ItemGroup>
 </Project>

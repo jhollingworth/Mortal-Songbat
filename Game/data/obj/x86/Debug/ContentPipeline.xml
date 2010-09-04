@@ -55,6 +55,24 @@
       <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\LandingPage.xnb</Output>
       <Time>2010-09-04T17:05:50.734+01:00</Time>
     </Item>
+    <Item>
+      <Source>images\standingGaga-01.png</Source>
+      <Name>images\standingGaga-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\standingGaga-01.xnb</Output>
+      <Time>2010-09-04T17:17:25.332+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\wall.jpg</Source>
+      <Name>images\wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\wall.xnb</Output>
+      <Time>2010-09-04T17:22:38.897+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

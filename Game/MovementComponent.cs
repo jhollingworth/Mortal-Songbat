@@ -43,17 +43,48 @@ namespace MortalSongbat
                 {
                     Orientation = Orientation.Left;
 
+                    if(Action != Action.Walking)
+                    {
+                        ((T2DAnimatedSprite)_sceneObject).PlayAnimation(
+                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>("gagaWalking")
+                        );
+                    }
+
                     Action = Action.Walking;
+                    
+                  
+                    
                     _sceneObject.FlipX = false;
+
+                    
+
                 }
                 else if (_sceneObject.Physics.VelocityX > 0)
                 {
                     Orientation = Orientation.Right;
+
+
+                    if (Action != Action.Walking)
+                    {
+                        ((T2DAnimatedSprite)_sceneObject).PlayAnimation(
+                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>("gagaWalking")
+                        );
+                    }
+
                     Action = Action.Walking;
+
+
                     _sceneObject.FlipX = true;
                 }
                 else
                 {
+                    if (Action != Action.Standing)
+                    {
+                        ((T2DAnimatedSprite)_sceneObject).PlayAnimation(
+                           TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>("gagaStanding")
+                        );
+                    }
+
                     Action = Action.Standing;   
                 }
             }
@@ -120,7 +151,7 @@ namespace MortalSongbat
 
         private void Jump()
         {
-            if(_sceneObject.Position.Y > 20)
+            if(_sceneObject.Position.Y > 10)
             {
                 _sceneObject.Physics.ApplyImpulse(new Vector2(0, -3));
             }

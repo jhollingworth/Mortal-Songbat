@@ -4,5 +4,7 @@ data\images\ground.xnb
 data\images\TGB_RDT_Plant.xnb
 data\images\gaga-01.xnb
 data\images\LandingPage.xnb
+data\images\standingGaga-01.xnb
+data\images\wall.xnb
 data\levels\levelData.txscene
 torqueSettings.xml

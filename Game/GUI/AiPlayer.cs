@@ -10,6 +10,7 @@ namespace MortalSongbat.GUI
         private readonly T2DSceneObject _actualPlayer;
 
         private int _count;
+        private Random _random;
 
         public AiPlayer(T2DSceneObject player, T2DSceneObject actualPlayer)
         {
@@ -17,23 +18,43 @@ namespace MortalSongbat.GUI
             _actualPlayer = actualPlayer;
 
             _count = 0;
+            _random = new Random(0);
         }
 
         public void Render()
         {
-            if (_count%60 == 0)
+            if (_random.Next(100) % 2 == 0)
             {
-                _player.Physics.ApplyImpulse(new Vector2(-3, 0));
+                if (_player.Position.X < _actualPlayer.Position.X)
+                {
+                    _player.Physics.ApplyImpulse(new Vector2(1, 0));
+                    _player.FlipX = true;
+                }
+                else if (_player.Position.X > _actualPlayer.Position.X)
+                {
+                    _player.Physics.ApplyImpulse(new Vector2(-1, 0));
+                    _player.FlipX = false;
+                }
             }
 
-            if (_player.Physics.VelocityX > 0)
+            if(Math.Abs(_player.Position.X - _actualPlayer.Position.X) < 1)
             {
-                _player.Physics.ApplyImpulse(new Vector2(-5, 0));
+                if (_player.Position.X > _actualPlayer.Position.X)
+                {
+                    _player.Physics.ApplyImpulse(new Vector2(3, 0));
+                    _player.FlipX = true;
+                }
+                else if (_player.Position.X < _actualPlayer.Position.X)
+                {
+                    _player.Physics.ApplyImpulse(new Vector2(-3, 0));
+                    _player.FlipX = false;
+                }
             }
 
-            if (_player.Physics.VelocityY < 0)
+
+            if (_player.Physics.VelocityY != 0)
             {
-                _player.Physics.ApplyImpulse(new Vector2(0, 1));
+                _player.Physics.ApplyImpulse(new Vector2(0, 2));
             }
 
             _count++;
