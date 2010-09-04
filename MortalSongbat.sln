@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{A258724B-E34A-4F2C-A844-131F8E44816B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Debug|Xbox 360 = Debug|Xbox 360
+		GGBinaryRelease|x86 = GGBinaryRelease|x86
+		GGBinaryRelease|Xbox 360 = GGBinaryRelease|Xbox 360
+		Release|x86 = Release|x86
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.Debug|x86.ActiveCfg = Debug|x86
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.Debug|x86.Build.0 = Debug|x86
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.GGBinaryRelease|x86.ActiveCfg = Release|x86
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.GGBinaryRelease|x86.Build.0 = Release|x86
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.GGBinaryRelease|Xbox 360.ActiveCfg = Release|x86
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.Release|x86.ActiveCfg = Release|x86
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.Release|x86.Build.0 = Release|x86
+		{A258724B-E34A-4F2C-A844-131F8E44816B}.Release|Xbox 360.ActiveCfg = Release|x86
+		{D37D1351-1A51-4869-A2FB-99F2007D1046}.Debug|x86.ActiveCfg = Debug|x86
+		{D37D1351-1A51-4869-A2FB-99F2007D1046}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{D37D1351-1A51-4869-A2FB-99F2007D1046}.GGBinaryRelease|x86.ActiveCfg = GGBinaryRelease|x86
+		{D37D1351-1A51-4869-A2FB-99F2007D1046}.GGBinaryRelease|Xbox 360.ActiveCfg = GGBinaryRelease|Xbox 360
+		{D37D1351-1A51-4869-A2FB-99F2007D1046}.Release|x86.ActiveCfg = Release|x86
+		{D37D1351-1A51-4869-A2FB-99F2007D1046}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
