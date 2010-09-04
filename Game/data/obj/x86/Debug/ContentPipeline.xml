@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>images\CreditsScreen.png</Source>
+      <Name>images\CreditsScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\CreditsScreen.xnb</Output>
+      <Time>2010-08-17T11:40:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\HelpScreen.png</Source>
+      <Name>images\HelpScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\HelpScreen.xnb</Output>
+      <Time>2010-08-17T11:40:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\MainMenuScreen.png</Source>
+      <Name>images\MainMenuScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\MainMenuScreen.xnb</Output>
+      <Time>2010-09-03T22:32:31.791+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\splashStudio.png</Source>
+      <Name>images\splashStudio</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\splashStudio.xnb</Output>
+      <Time>2010-08-17T11:40:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\StartScreen.png</Source>
+      <Name>images\StartScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\StartScreen.xnb</Output>
+      <Time>2010-08-17T11:40:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\Target.png</Source>
+      <Name>images\Target</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\Target.xnb</Output>
+      <Time>2010-08-17T11:40:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\TX_BG.png</Source>
+      <Name>images\TX_BG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\TX_BG.xnb</Output>
+      <Time>2010-08-17T11:40:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\trident-d.png</Source>
+      <Name>images\trident-d</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\trident-d.xnb</Output>
+      <Time>2010-08-17T11:40:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\trident-normal-1.png</Source>
+      <Name>images\trident-normal-1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\images\trident-normal-1.xnb</Output>
+      <Time>2010-08-17T11:40:12+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\data\</RootDirectory>
+      <LoggerRootDirectory>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\data\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Dev\TorqueX GUI 2D (3.1.5)2\Game\bin\x86\Debug\data\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T00:16:14+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T00:16:06+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T00:16:16+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T00:16:26+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T00:16:12+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-09-03T21:32:06.5262+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

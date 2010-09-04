@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--Torque X Builder - http://www.garagegames.com-->
+<!--Type: TorqueXProject-->
+<!--Target: TGB-->
+<!--Version: 1-->
+<!--Creator: Torque X Builder-->
+<TorqueXProject>
+    <ProjectData>
+        <LastLevel>C:/Repos/Torque X/StarterKits/GuiGame2D/GuiGame2D/data/levels/levelData.txscene</LastLevel>
+        <StaticSprites>
+            <SimSet>
+                <canSaveDynamicFields>true</canSaveDynamicFields>
+                <internalName></internalName>
+                <ScriptObject name="DefaultCollisionMaterial">
+                    <class>T2DPhysicsMaterial</class>
+                    <superclass></superclass>
+                    <DynamicFieldCount>3</DynamicFieldCount>
+                    <DynamicFieldName0>Friction</DynamicFieldName0>
+                    <DynamicFieldValue0>0.3</DynamicFieldValue0>
+                    <DynamicFieldName1>priority</DynamicFieldName1>
+                    <DynamicFieldValue1>0</DynamicFieldValue1>
+                    <DynamicFieldName2>Restitution</DynamicFieldName2>
+                    <DynamicFieldValue2>1</DynamicFieldValue2>
+                </ScriptObject>
+                <t2dImageMapDatablock name="tridentdMaterial">
+                    <imageMode>FULL</imageMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>10</DynamicFieldCount>
+                    <DynamicFieldName0>refractive</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>specularColor</DynamicFieldName1>
+                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
+                    <DynamicFieldName2>normalMap</DynamicFieldName2>
+                    <DynamicFieldValue2>data/images/trident-normal-1.png</DynamicFieldValue2>
+                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
+                    <DynamicFieldValue3>0</DynamicFieldValue3>
+                    <DynamicFieldName4>additive</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>enableLighting</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
+                    <DynamicFieldName6>specularIntensity</DynamicFieldName6>
+                    <DynamicFieldValue6>1.000</DynamicFieldValue6>
+                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>refractiveAmount</DynamicFieldName8>
+                    <DynamicFieldValue8>1</DynamicFieldValue8>
+                    <DynamicFieldName9>specularPower</DynamicFieldName9>
+                    <DynamicFieldValue9>0.000</DynamicFieldValue9>
+                    <imageName>data/images/trident-d.png</imageName>
+                </t2dImageMapDatablock>
+            </SimSet>
+        </StaticSprites>
+        <Brushes>
+            <SimSet>
+                <canSaveDynamicFields>true</canSaveDynamicFields>
+                <internalName></internalName>
+            </SimSet>
+        </Brushes>
+    </ProjectData>
+</TorqueXProject>

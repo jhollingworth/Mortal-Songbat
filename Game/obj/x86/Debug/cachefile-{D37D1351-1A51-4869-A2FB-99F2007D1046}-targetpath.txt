@@ -1,0 +1,10 @@
+data\images\CreditsScreen.xnb
+data\images\HelpScreen.xnb
+data\images\MainMenuScreen.xnb
+data\images\splashStudio.xnb
+data\images\StartScreen.xnb
+data\images\Target.xnb
+data\images\TX_BG.xnb
+data\images\trident-d.xnb
+data\images\trident-normal-1.xnb
+data\levels\levelData.txscene

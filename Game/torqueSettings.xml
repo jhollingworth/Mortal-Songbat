@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TorqueEngineSettings>
+  <SimulateFences>true</SimulateFences>
+	<UseFixedTimeStep>false</UseFixedTimeStep>
+	<UseInterpolation>false</UseInterpolation>
+	<EnableAudio>false</EnableAudio>
+	<GraphicsClearSettings>
+		<ClearColor valueOf="Microsoft.Xna.Framework.Graphics.Color.Black"/>
+	</GraphicsClearSettings>
+	<WindowsGraphicsManagerSettings>
+		<PreferMultiSampling>false</PreferMultiSampling>
+		<PreferredBackBufferHeight>720</PreferredBackBufferHeight>
+		<PreferredBackBufferWidth>1280</PreferredBackBufferWidth>
+	</WindowsGraphicsManagerSettings>
+	<XboxGraphicsManagerSettings>
+		<PreferMultiSampling>false</PreferMultiSampling>
+		<UseDisplaySizeForBackbuffer>false</UseDisplaySizeForBackbuffer>
+	</XboxGraphicsManagerSettings>
+</TorqueEngineSettings>
