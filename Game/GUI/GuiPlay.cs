@@ -1,5 +1,7 @@
-﻿using GarageGames.Torque.GUI;
+﻿using GarageGames.Torque.Core;
+using GarageGames.Torque.GUI;
 using GarageGames.Torque.MathUtil;
+using GarageGames.Torque.T2D;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -48,20 +50,24 @@ namespace MortalSongbat.GUI
             bitmapStyle = new GUIBitmapStyle();
             bitmapStyle.SizeToBitmap = false;
 
-            _target = new GUIBitmap();
-            _target.Style = bitmapStyle;
-            _target.Size = new Vector2(64);
-            _target.Bitmap = @"data\images\Target";
-            _target.Folder = this;
-            _target.Visible = true;
-            _target.Position = Vector2.Divide(Size, 2) - Vector2.Divide(_target.Size, 2);
         }
 
 
         public override void OnRender(Vector2 offset, RectangleF updateRect)
         {
-            _playerScore1.Text = "Player Score: " + Game.Instance.PlayerScore;
-            _healthLevel.Text = "Health Level: " + Game.Instance.HealthLevel;
+            var sceneObject = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player1");
+
+            if(sceneObject != null)
+            {
+                var movement = sceneObject.Components.FindComponent<MovementComponent>();
+
+                if(movement != null)
+                {
+                    _playerScore1.Text = "Player Orientation: " + movement.Orientation;
+                    _healthLevel.Text = "Player aciton: " + movement.Action;
+                }
+            }
+
 
             base.OnRender(offset, updateRect);
         }

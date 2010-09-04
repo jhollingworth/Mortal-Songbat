@@ -17,3 +17,9 @@ C:\Dev\MortalSongbat\Game\bin\x86\Debug\GarageGames.TorqueX.Framework.dll
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\GarageGames.TorqueX.Framework2D.dll
 C:\Dev\MortalSongbat\Game\obj\x86\Debug\MortalSongbat.exe
 C:\Dev\MortalSongbat\Game\obj\x86\Debug\MortalSongbat.pdb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Stage.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Baby_original_size.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Baby.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\ground.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TGB_RDT_Background.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TGB_RDT_Plant.xnb

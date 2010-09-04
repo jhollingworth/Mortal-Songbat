@@ -82,6 +82,60 @@
       <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\trident-normal-1.xnb</Output>
       <Time>2010-08-17T11:40:12+01:00</Time>
     </Item>
+    <Item>
+      <Source>images\Stage.jpg</Source>
+      <Name>images\Stage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Stage.xnb</Output>
+      <Time>2010-09-04T10:39:25.195+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\Baby_original_size.jpg</Source>
+      <Name>images\Baby_original_size</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Baby_original_size.xnb</Output>
+      <Time>2010-09-04T12:35:30.155+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\Baby.png</Source>
+      <Name>images\Baby</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Baby.xnb</Output>
+      <Time>2010-09-04T13:35:02.459+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\ground.jpg</Source>
+      <Name>images\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\ground.xnb</Output>
+      <Time>2010-09-04T14:02:14.762+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\TGB_RDT_Background.png</Source>
+      <Name>images\TGB_RDT_Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TGB_RDT_Background.xnb</Output>
+      <Time>2010-09-04T13:18:55.623+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\TGB_RDT_Plant.png</Source>
+      <Name>images\TGB_RDT_Plant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TGB_RDT_Plant.xnb</Output>
+      <Time>2010-09-04T13:20:03.574+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

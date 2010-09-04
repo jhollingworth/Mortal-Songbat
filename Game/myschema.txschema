@@ -67,6 +67,12 @@
         <Type>GarageGames.Torque.T2D.T2DPhysicsComponent</Type>
       </Dependencies>
       <IsComponent>true</IsComponent>
+      <Element name="Orientation">
+        <Type>MortalSongbat.GUI.Orientation</Type>
+      </Element>
+      <Element name="Action">
+        <Type>MortalSongbat.GUI.Action</Type>
+      </Element>
       <Element name="PlayerNumber">
         <Type>System.Int32</Type>
       </Element>
@@ -372,6 +378,17 @@
     </Type>
   </ExplicitTypes>
   <ReferencedTypes>
+    <Type name="Action" fullName="MortalSongbat.GUI.Action">
+      <IsEnum>true</IsEnum>
+      <Element name="Standing">
+        <IsStatic>true</IsStatic>
+        <Type>MortalSongbat.GUI.Action</Type>
+      </Element>
+      <Element name="Walking">
+        <IsStatic>true</IsStatic>
+        <Type>MortalSongbat.GUI.Action</Type>
+      </Element>
+    </Type>
     <Type name="Animation" fullName="GarageGames.Torque.T2D.T2DAnimationComponent+Animation">
       <Element name="ParameterName">
         <Type>System.String</Type>
@@ -828,6 +845,17 @@
     <Type name="OnRegisteredDelegate" fullName="GarageGames.Torque.Core.OnRegisteredDelegate">
       <IsDelegate>true</IsDelegate>
       <IsInstantiable>false</IsInstantiable>
+    </Type>
+    <Type name="Orientation" fullName="MortalSongbat.GUI.Orientation">
+      <IsEnum>true</IsEnum>
+      <Element name="Left">
+        <IsStatic>true</IsStatic>
+        <Type>MortalSongbat.GUI.Orientation</Type>
+      </Element>
+      <Element name="Right">
+        <IsStatic>true</IsStatic>
+        <Type>MortalSongbat.GUI.Orientation</Type>
+      </Element>
     </Type>
     <Type name="PolarLengthProcessor" fullName="GarageGames.Torque.T2D.T2DProcessComponent+PolarLengthProcessor">
       <Element name="StickIndex">

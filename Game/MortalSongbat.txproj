@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--Torque X Builder - http://www.garagegames.com-->
+<!--Type: TorqueXProject-->
+<!--Target: TGB-->
+<!--Version: 1-->
+<!--Creator: Torque X Builder-->
+<TorqueXProject>
+    <ProjectData>
+        <LastLevel></LastLevel>
+        <StaticSprites>
+            <SimSet>
+                <canSaveDynamicFields>true</canSaveDynamicFields>
+                <internalName></internalName>
+                <ScriptObject name="DefaultCollisionMaterial">
+                    <class>T2DPhysicsMaterial</class>
+                    <superclass></superclass>
+                    <DynamicFieldCount>3</DynamicFieldCount>
+                    <DynamicFieldName0>Friction</DynamicFieldName0>
+                    <DynamicFieldValue0>0.3</DynamicFieldValue0>
+                    <DynamicFieldName1>priority</DynamicFieldName1>
+                    <DynamicFieldValue1>0</DynamicFieldValue1>
+                    <DynamicFieldName2>Restitution</DynamicFieldName2>
+                    <DynamicFieldValue2>1</DynamicFieldValue2>
+                </ScriptObject>
+            </SimSet>
+        </StaticSprites>
+        <Brushes>
+            <SimSet>
+                <canSaveDynamicFields>true</canSaveDynamicFields>
+                <internalName></internalName>
+            </SimSet>
+        </Brushes>
+    </ProjectData>
+</TorqueXProject>

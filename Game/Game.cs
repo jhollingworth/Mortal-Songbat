@@ -4,16 +4,10 @@ using MortalSongbat.GUI;
 
 namespace MortalSongbat
 {
-    /// <summary>
-    /// This is the main game class for your game
-    /// </summary>
     public class Game : TorqueGame
     {
         private static Game _myGame;
 
-        /// <summary>
-        /// A static property that lets you easily get the Game instance from any Game class.
-        /// </summary>
         public static Game Instance
         {
             get { return _myGame; }
@@ -31,10 +25,6 @@ namespace MortalSongbat
             _myGame.Run();
         }
 
-
-        /// <summary>
-        /// Called after the graphics device is created and before the game is about to start running.
-        /// </summary>
         protected override void BeginRun()
         {
             base.BeginRun();

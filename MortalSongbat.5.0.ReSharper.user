@@ -7,8 +7,33 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="1575" fromTop="17" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="628" fromTop="7" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:Docs/f:StarterGame2D.html" caret="0" fromTop="0" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="4518" fromTop="17" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.txproj" caret="617" fromTop="1" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:myschema.txschema" caret="2369" fromTop="27" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiMainMenu.cs" caret="2509" fromTop="4" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="4086" fromTop="26" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="1863" fromTop="6" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/d:GUI/f:GuiPlay.cs" caret="1863" fromTop="6" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="0" fromTop="0" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="121" fromTop="4" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="204" fromTop="8" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:Game.cs" caret="628" fromTop="22" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="2407" fromTop="43" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="5215" fromTop="21" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="1306" fromTop="21" />
+      <File id="D37D1351-1A51-4869-A2FB-99F2007D1046/d:levels/f:levelData.txscene" caret="4517" fromTop="17" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="1132" fromTop="18" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="920" fromTop="16" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="2765" fromTop="18" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="4001" fromTop="21" />
+      <File id="A258724B-E34A-4F2C-A844-131F8E44816B/f:MovementComponent.cs" caret="4111" fromTop="11" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -20,4 +45,38 @@
     <NUnitInstallDir>C:\Program Files\NUnit 2.5.6\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="inputMap" priority="0" />
+      <Item value="keyboardId" priority="0" />
+      <Item value="MarshalByRefObject`0" priority="0" />
+      <Item value="Keys`0" priority="0" />
+      <Item value="Jump`0" priority="0" />
+      <Item value="_SetupInputMap`0" priority="0" />
+      <Item value="_sceneObject" priority="3" />
+      <Item value="new" priority="0" />
+      <Item value="Vector2" priority="0" />
+      <Item value="if" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GarageGames.Torque.Sim.InputMap">
+      <Item value="BindCommand`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Xna.Framework.Input.Keys">
+      <Item value="Space" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GarageGames.Torque.T2D.T2DSceneObject">
+      <Item value="Physics" priority="3" />
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GarageGames.Torque.T2D.T2DPhysicsComponent">
+      <Item value="ApplyImpulse`0" priority="0" />
+      <Item value="InverseMass" priority="0" />
+      <Item value="Mass" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Xna.Framework.Vector2">
+      <Item value="X" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

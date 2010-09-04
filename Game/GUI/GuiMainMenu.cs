@@ -40,7 +40,7 @@ namespace MortalSongbat.GUI
             option1.Visible = true;
             option1.Folder = this;
             option1.ButtonText = "Start New Game";
-            option1.OnSelectedDelegate = On_Option1_Select;
+            option1.OnSelectedDelegate = OnStartGame;
             option1.OnGainFocus(null);
             _buttons.Add(option1);
 
@@ -51,25 +51,19 @@ namespace MortalSongbat.GUI
             option4.Visible = true;
             option4.Folder = this;
             option4.ButtonText = "Quit";
-            option4.OnSelectedDelegate = On_Option4_Select;
+            option4.OnSelectedDelegate = OnQuit;
             _buttons.Add(option4);
 
             //setup the input map
             SetupInputMap();
         }
 
-
-        public void OnMainScreenWake(GUIControl mainGUI)
-        {
-        }
-
-
         private void SetupInputMap()
         {
             InputMap.BindCommand(Game.Instance.Player1ControllerIndex, (int) XGamePadDevice.GamePadObjects.A, null,
-                                 On_Option1_Select);
+                                 OnStartGame);
             InputMap.BindCommand(Game.Instance.Player1ControllerIndex, (int) XGamePadDevice.GamePadObjects.Y, null,
-                                 On_Option4_Select);
+                                 OnQuit);
             InputMap.BindCommand(Game.Instance.Player1ControllerIndex, (int) XGamePadDevice.GamePadObjects.Back, null,
                                  Game.Instance.Exit);
 
@@ -110,7 +104,7 @@ namespace MortalSongbat.GUI
             ((GUIButton) _buttons[_currentSelection]).OnSelectedDelegate();
         }
 
-        private void On_Option1_Select()
+        private static void OnStartGame()
         {
             var playGUI = new GuiPlay();
             GUICanvas.Instance.SetContentControl(playGUI);
@@ -118,7 +112,7 @@ namespace MortalSongbat.GUI
             Game.Instance.SceneLoader.Load(@"data\levels\levelData.txscene");
         }
 
-        private void On_Option4_Select()
+        private static void OnQuit()
         {
             //shutdown the game
             TorqueEngineComponent.Instance.Exit();
