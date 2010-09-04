@@ -1,16 +1,5 @@
-data\images\CreditsScreen.xnb
-data\images\HelpScreen.xnb
-data\images\MainMenuScreen.xnb
-data\images\splashStudio.xnb
-data\images\StartScreen.xnb
-data\images\Target.xnb
-data\images\TX_BG.xnb
-data\images\trident-d.xnb
-data\images\trident-normal-1.xnb
 data\images\Stage.xnb
-data\images\Baby_original_size.xnb
 data\images\Baby.xnb
 data\images\ground.xnb
-data\images\TGB_RDT_Background.xnb
 data\images\TGB_RDT_Plant.xnb
 data\levels\levelData.txscene

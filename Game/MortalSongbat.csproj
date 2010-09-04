@@ -91,6 +91,7 @@
     <Compile Include="Game.cs">
       <Name>Game</Name>
     </Compile>
+    <Compile Include="GUI\AiPlayer.cs" />
     <Compile Include="GUI\Enums.cs" />
     <Compile Include="GUI\GuiMainMenu.cs" />
     <Compile Include="GUI\GuiPlay.cs" />

@@ -51,7 +51,6 @@ namespace MortalSongbat
                     Orientation = Orientation.Right;
                     Action = Action.Walking;
                     _sceneObject.FlipX = true;
-
                 }
                 else
                 {
@@ -121,7 +120,7 @@ namespace MortalSongbat
 
         private void Jump()
         {
-            if(_sceneObject.Position.Y > 26)
+            if(_sceneObject.Position.Y > 20)
             {
                 _sceneObject.Physics.ApplyImpulse(new Vector2(0, -3));
             }

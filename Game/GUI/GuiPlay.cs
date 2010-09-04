@@ -14,6 +14,7 @@ namespace MortalSongbat.GUI
         private readonly GUIText _playerScore1;
         private readonly GUIText _healthLevel;
         private readonly GUIBitmap _target;
+        private AiPlayer _aiPlayer;
 
         public GuiPlay()
         {
@@ -50,11 +51,19 @@ namespace MortalSongbat.GUI
             bitmapStyle = new GUIBitmapStyle();
             bitmapStyle.SizeToBitmap = false;
 
+          
         }
 
 
         public override void OnRender(Vector2 offset, RectangleF updateRect)
         {
+            if(_aiPlayer == null)
+            {
+                _aiPlayer = new AiPlayer(TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player2"));
+            }
+
+            _aiPlayer.Render();
+
             var sceneObject = TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player1");
 
             if(sceneObject != null)
@@ -67,7 +76,6 @@ namespace MortalSongbat.GUI
                     _healthLevel.Text = "Player aciton: " + movement.Action;
                 }
             }
-
 
             base.OnRender(offset, updateRect);
         }

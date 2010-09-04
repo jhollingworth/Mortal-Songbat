@@ -105,6 +105,33 @@
                 <CellCountY>1</CellCountY>
             </TextureDivider>
         </SimpleMaterial>
+        <SimpleMaterial name="moving_gagaMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/moving gaga.jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>3</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="moving_gaga_1Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/moving gaga (1).jpg</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>3</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="gaga0101Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/gaga-01-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
     </Materials>
     <Objects>
         <T2DCollisionMaterial name="DefaultCollisionMaterial">
@@ -123,7 +150,19 @@
             <AnimationDuration>1</AnimationDuration>
             <AnimationCycle>true</AnimationCycle>
         </AnimationData>
-        <StaticSprite>
+        <AnimationData name="moving_gaga_1Animation">
+            <Material nameRef="moving_gaga_1Material" />
+            <AnimationFrames>0 1 2</AnimationFrames>
+            <AnimationDuration>0.3</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="gaga0101Animation">
+            <Material nameRef="gaga0101Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.4</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <StaticSprite name="Player1">
             <CreateWithPhysics>false</CreateWithPhysics>
             <CreateWithCollision>false</CreateWithCollision>
             <ObjectType>
@@ -207,12 +246,12 @@
             <IsPersistent>false</IsPersistent>
             <Layer>0</Layer>
             <Size>
-                <X>93.750</X>
-                <Y>1.000</Y>
+                <X>99.973</X>
+                <Y>0.711</Y>
             </Size>
             <Position>
-                <X>-3.098</X>
-                <Y>37.442</Y>
+                <X>0.014</X>
+                <Y>37.586</Y>
             </Position>
             <Rotation>0</Rotation>
             <CollisionsEnabled>true</CollisionsEnabled>
@@ -227,6 +266,93 @@
             <Material nameRef="groundMaterial" />
             <MaterialRegionIndex>0</MaterialRegionIndex>
         </StaticSprite>
+        <AnimatedSprite name="Player2">
+            <CreateWithPhysics>false</CreateWithPhysics>
+            <CreateWithCollision>false</CreateWithCollision>
+            <Components inPlace="true">
+                <T2DControlComponent type="GarageGames.Torque.T2D.T2DControlComponent">
+                    <PlayerNumber>0</PlayerNumber>
+                </T2DControlComponent>
+                <T2DForceComponent type="GarageGames.Torque.T2D.T2DForceComponent" />
+                <T2DPhysicsComponent type="GarageGames.Torque.T2D.T2DPhysicsComponent">
+                    <Velocity>
+                        <X>-1.000</X>
+                        <Y>0</Y>
+                    </Velocity>
+                    <AngularVelocity>0.0</AngularVelocity>
+                    <InverseMass>20.000</InverseMass>
+                    <RotationScale>1.0</RotationScale>
+                    <ProcessCollisionsAtRest>false</ProcessCollisionsAtRest>
+                </T2DPhysicsComponent>
+                <T2DCollisionComponent type="GarageGames.Torque.T2D.T2DCollisionComponent">
+                    <Images>
+                        <T2DPolyImage type="GarageGames.Torque.T2D.T2DPolyImage">
+                            <CollisionPolyBasis>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>0.41667</X>
+                                    <Y>-0.37168</Y>
+                                </Vector2>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>0.12319</X>
+                                    <Y>0.92035</Y>
+                                </Vector2>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>-0.61594</X>
+                                    <Y>0.92920</Y>
+                                </Vector2>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>-0.81884</X>
+                                    <Y>-0.36283</Y>
+                                </Vector2>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>-0.29348</X>
+                                    <Y>-0.89381</Y>
+                                </Vector2>
+                            </CollisionPolyBasis>
+                            <CollisionPolyScale>
+                                <X>1</X>
+                                <Y>1</Y>
+                            </CollisionPolyScale>
+                        </T2DPolyImage>
+                    </Images>
+                    <RenderCollisionBounds>true</RenderCollisionBounds>
+                    <ResolveCollision valueOf="GarageGames.Torque.T2D.T2DPhysicsComponent.ClampCollision" />
+                    <SolveOverlap>true</SolveOverlap>
+                    <CollisionMaterial nameRef="DefaultCollisionMaterial" />
+                </T2DCollisionComponent>
+            </Components>
+            <ObjectType>
+                <object objTypeRef="t2dAnimatedSpriteType" />
+            </ObjectType>
+            <Pool>false</Pool>
+            <PoolWithComponents>false</PoolWithComponents>
+            <IsTemplate>false</IsTemplate>
+            <IsPersistent>false</IsPersistent>
+            <Layer>0</Layer>
+            <Size>
+                <X>15.000</X>
+                <Y>18.413</Y>
+            </Size>
+            <Position>
+                <X>38.603</X>
+                <Y>29.206</Y>
+            </Position>
+            <Rotation>0</Rotation>
+            <CollisionsEnabled>true</CollisionsEnabled>
+            <Visible>true</Visible>
+            <VisibilityLevel>1</VisibilityLevel>
+            <FlipX>false</FlipX>
+            <FlipY>false</FlipY>
+            <SortPoint>
+                <X>0.000000</X>
+                <Y>0.000000</Y>
+            </SortPoint>
+            <AnimationData nameRef="BabyAnimation" />
+            <StartFrame>0</StartFrame>
+            <RandomStart>false</RandomStart>
+            <PlayOnLoad>true</PlayOnLoad>
+            <RemoveOnFinished>false</RemoveOnFinished>
+        </AnimatedSprite>
         <AnimatedSprite>
             <CreateWithPhysics>false</CreateWithPhysics>
             <CreateWithCollision>false</CreateWithCollision>
@@ -307,12 +433,12 @@
             <IsPersistent>false</IsPersistent>
             <Layer>0</Layer>
             <Size>
-                <X>15.000</X>
-                <Y>18.413</Y>
+                <X>20.398</X>
+                <Y>28.033</Y>
             </Size>
             <Position>
-                <X>-37.500</X>
-                <Y>29.207</Y>
+                <X>-37.419</X>
+                <Y>22.338</Y>
             </Position>
             <Rotation>0</Rotation>
             <CollisionsEnabled>true</CollisionsEnabled>
@@ -324,7 +450,7 @@
                 <X>0.000000</X>
                 <Y>0.000000</Y>
             </SortPoint>
-            <AnimationData nameRef="BabyAnimation" />
+            <AnimationData nameRef="gaga0101Animation" />
             <StartFrame>0</StartFrame>
             <RandomStart>false</RandomStart>
             <PlayOnLoad>true</PlayOnLoad>

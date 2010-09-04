@@ -1,15 +1,6 @@
 C:\Dev\MortalSongbat\Game\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Dev\MortalSongbat\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\torqueSettings.xml
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\CreditsScreen.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\HelpScreen.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\MainMenuScreen.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\splashStudio.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\StartScreen.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Target.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TX_BG.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\trident-d.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\trident-normal-1.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\levels\levelData.txscene
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\MortalSongbat.exe
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\MortalSongbat.pdb
@@ -18,8 +9,6 @@ C:\Dev\MortalSongbat\Game\bin\x86\Debug\GarageGames.TorqueX.Framework2D.dll
 C:\Dev\MortalSongbat\Game\obj\x86\Debug\MortalSongbat.exe
 C:\Dev\MortalSongbat\Game\obj\x86\Debug\MortalSongbat.pdb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Stage.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Baby_original_size.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Baby.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\ground.xnb
-C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TGB_RDT_Background.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\TGB_RDT_Plant.xnb

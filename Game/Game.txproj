@@ -334,6 +334,143 @@
                     <startFrame>0</startFrame>
                     <DynamicFieldCount>0</DynamicFieldCount>
                 </t2dAnimationDatablock>
+                <t2dImageMapDatablock name="moving_gagaMaterial">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>3</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>259</cellWidth>
+                    <cellHeight>469</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>forceCelled</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>additive</DynamicFieldName1>
+                    <DynamicFieldValue1>0</DynamicFieldValue1>
+                    <DynamicFieldName2>enableLighting</DynamicFieldName2>
+                    <DynamicFieldValue2>0</DynamicFieldValue2>
+                    <DynamicFieldName3>specularIntensity</DynamicFieldName3>
+                    <DynamicFieldValue3>1.000</DynamicFieldValue3>
+                    <DynamicFieldName4>translucent</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>refractiveAmount</DynamicFieldName5>
+                    <DynamicFieldValue5>1</DynamicFieldValue5>
+                    <DynamicFieldName6>specularPower</DynamicFieldName6>
+                    <DynamicFieldValue6>0.000</DynamicFieldValue6>
+                    <DynamicFieldName7>refractive</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularColor</DynamicFieldName8>
+                    <DynamicFieldValue8>1 1 1 1</DynamicFieldValue8>
+                    <imageName>data/images/moving gaga.jpg</imageName>
+                </t2dImageMapDatablock>
+                <t2dImageMapDatablock name="moving_gaga_1Material">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>3</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>300</cellWidth>
+                    <cellHeight>500</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>forceCelled</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>additive</DynamicFieldName1>
+                    <DynamicFieldValue1>0</DynamicFieldValue1>
+                    <DynamicFieldName2>enableLighting</DynamicFieldName2>
+                    <DynamicFieldValue2>0</DynamicFieldValue2>
+                    <DynamicFieldName3>specularIntensity</DynamicFieldName3>
+                    <DynamicFieldValue3>1.000</DynamicFieldValue3>
+                    <DynamicFieldName4>translucent</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>refractiveAmount</DynamicFieldName5>
+                    <DynamicFieldValue5>1</DynamicFieldValue5>
+                    <DynamicFieldName6>specularPower</DynamicFieldName6>
+                    <DynamicFieldValue6>0.000</DynamicFieldValue6>
+                    <DynamicFieldName7>refractive</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularColor</DynamicFieldName8>
+                    <DynamicFieldValue8>1 1 1 1</DynamicFieldValue8>
+                    <imageName>data/images/moving gaga (1).jpg</imageName>
+                </t2dImageMapDatablock>
+                <t2dAnimationDatablock name="moving_gaga_1Animation">
+                    <defaultConfig></defaultConfig>
+                    <imageMap>moving_gaga_1Material</imageMap>
+                    <animationFrames>0 1 2</animationFrames>
+                    <animationTime>0.3</animationTime>
+                    <animationCycle>true</animationCycle>
+                    <randomStart>false</randomStart>
+                    <startFrame>0</startFrame>
+                    <DynamicFieldCount>0</DynamicFieldCount>
+                </t2dAnimationDatablock>
+                <t2dImageMapDatablock name="gaga0101Material">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>4</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>300</cellWidth>
+                    <cellHeight>500</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>forceCelled</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>additive</DynamicFieldName1>
+                    <DynamicFieldValue1>0</DynamicFieldValue1>
+                    <DynamicFieldName2>enableLighting</DynamicFieldName2>
+                    <DynamicFieldValue2>0</DynamicFieldValue2>
+                    <DynamicFieldName3>specularIntensity</DynamicFieldName3>
+                    <DynamicFieldValue3>1.000</DynamicFieldValue3>
+                    <DynamicFieldName4>translucent</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>refractiveAmount</DynamicFieldName5>
+                    <DynamicFieldValue5>1</DynamicFieldValue5>
+                    <DynamicFieldName6>specularPower</DynamicFieldName6>
+                    <DynamicFieldValue6>0.000</DynamicFieldValue6>
+                    <DynamicFieldName7>refractive</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularColor</DynamicFieldName8>
+                    <DynamicFieldValue8>1 1 1 1</DynamicFieldValue8>
+                    <imageName>data/images/gaga-01-01.png</imageName>
+                </t2dImageMapDatablock>
+                <t2dAnimationDatablock name="gaga0101Animation">
+                    <defaultConfig></defaultConfig>
+                    <imageMap>gaga0101Material</imageMap>
+                    <animationFrames>0 1 2 3</animationFrames>
+                    <animationTime>0.4</animationTime>
+                    <animationCycle>true</animationCycle>
+                    <randomStart>false</randomStart>
+                    <startFrame>0</startFrame>
+                    <DynamicFieldCount>0</DynamicFieldCount>
+                </t2dAnimationDatablock>
             </SimSet>
         </StaticSprites>
         <Brushes>
