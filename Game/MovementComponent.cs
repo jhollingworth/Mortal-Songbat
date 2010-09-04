@@ -107,18 +107,17 @@ namespace MortalSongbat
             {
                 inputMap.BindMove(keyboardId, (int) Keys.Right, MoveMapTypes.StickDigitalRight, 0);
                 inputMap.BindMove(keyboardId, (int) Keys.Left, MoveMapTypes.StickDigitalLeft, 0);
-                inputMap.BindMove(keyboardId, (int) Keys.Up, MoveMapTypes.StickDigitalUp, 0);
+                inputMap.BindCommand(keyboardId, (int)Keys.Up, Jump, null);
                 inputMap.BindMove(keyboardId, (int) Keys.Down, MoveMapTypes.StickDigitalDown, 0);
                 // WASD
                 inputMap.BindMove(keyboardId, (int) Keys.D, MoveMapTypes.StickDigitalRight, 0);
                 inputMap.BindMove(keyboardId, (int) Keys.A, MoveMapTypes.StickDigitalLeft, 0);
-                inputMap.BindMove(keyboardId, (int) Keys.W, MoveMapTypes.StickDigitalUp, 0);
+                inputMap.BindCommand(keyboardId, (int) Keys.W, Jump, null);
                 inputMap.BindMove(keyboardId, (int) Keys.S, MoveMapTypes.StickDigitalDown, 0);
                 inputMap.BindCommand(keyboardId, (int) Keys.Space, Jump, null);
                 inputMap.BindCommand(keyboardId, (int) Keys.F, Flower, null);
             }
         }
-
 
         private void Jump()
         {
