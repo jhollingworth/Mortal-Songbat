@@ -19,3 +19,11 @@ C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\wall.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\jacksonStanding-01.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\JacksonWalking-01.xnb
 C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\PeteStanding-01.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\PeteWalking-01.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\sounds\sounds.xgs
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\sounds\Wave Bank.xwb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\sounds\Sound Bank.xsb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\StevieStanding-01.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Fatality.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\StevieWalking-01.xnb
+C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\GagaSpecialMove-01.xnb

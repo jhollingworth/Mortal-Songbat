@@ -9,4 +9,12 @@ data\images\wall.xnb
 data\images\jacksonStanding-01.xnb
 data\images\JacksonWalking-01.xnb
 data\images\PeteStanding-01.xnb
+data\images\PeteWalking-01.xnb
+data\images\StevieStanding-01.xnb
+data\images\Fatality.xnb
+data\images\StevieWalking-01.xnb
+data\images\GagaSpecialMove-01.xnb
+data\sounds\sounds.xgs
+data\sounds\Wave Bank.xwb
+data\sounds\Sound Bank.xsb
 data\levels\levelData.txscene

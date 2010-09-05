@@ -38,7 +38,7 @@ namespace MortalSongbat.GUI
                 }
             }
 
-            if (Math.Abs(_player.Position.X - _actualPlayer.Position.X) < 10)
+            if (Math.Abs(_player.Position.X - _actualPlayer.Position.X) < 5)
             {
                 if(_random.Next(100) % 2 == 0 && _count % 50 == 0)
                 {

@@ -52,12 +52,7 @@ namespace MortalSongbat
 
                     Action = Action.Walking;
                     
-                  
-                    
-                    _sceneObject.FlipX = false;
-
-                    
-
+                    _sceneObject.FlipX =Game.Instance.Player == "steve" ? true :false;
                 }
                 else if (_sceneObject.Physics.VelocityX > 0)
                 {
@@ -74,7 +69,8 @@ namespace MortalSongbat
                     Action = Action.Walking;
 
 
-                    _sceneObject.FlipX = true;
+
+                    _sceneObject.FlipX = Game.Instance.Player == "steve" ? false : true;
                 }
                 else
                 {
@@ -144,16 +140,34 @@ namespace MortalSongbat
                 inputMap.BindMove(keyboardId, (int) Keys.A, MoveMapTypes.StickDigitalLeft, 0);
                 inputMap.BindCommand(keyboardId, (int) Keys.W, Jump, null);
                 inputMap.BindMove(keyboardId, (int) Keys.S, MoveMapTypes.StickDigitalDown, 0);
-                inputMap.BindCommand(keyboardId, (int) Keys.Space, Jump, null);
+                inputMap.BindCommand(keyboardId, (int) Keys.Space, Next, null);
                 inputMap.BindCommand(keyboardId, (int) Keys.Q, SpecialMove, null);
             }
         }
 
         private void Jump()
         {
-            if(_sceneObject.Position.Y > 10)
+            _sceneObject.Physics.ApplyImpulse(new Vector2(0, -3));
+        }
+
+        private void Next()
+        {
+            var game = Game.Instance;
+            if(game.Finished)
             {
-                _sceneObject.Physics.ApplyImpulse(new Vector2(0, -3));
+                if(game.Ai == "pete" || game.Ai == "steve")
+                {
+                    game.Ai = "jackson";
+                }
+                else if (game.Ai == "jackson")
+                {
+                    game.Ai = "gaga";
+                }
+                GuiPlay.PlayerAi = null;
+                GuiPlay.Player.Visible = true;
+                GuiPlay.Ai.Visible = true;
+                GuiPlay.Fatality.Visible = false;
+                game.Finished = false;
             }
         }
 
@@ -162,6 +176,11 @@ namespace MortalSongbat
             ((T2DAnimatedSprite) _sceneObject).PlayAnimation(
                 TorqueObjectDatabase.Instance.FindObject<T2DAnimationData>(Game.Instance.Player + "SpecialMove"), true
             );
+
+            if(Game.Instance.Player == "gaga")
+            {
+                Game.Instance.Sounds.PlaySound(Game.Instance.Player + "Special");
+            }
         }
 
         //======================================================

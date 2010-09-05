@@ -100,6 +100,51 @@
       <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\PeteStanding-01.xnb</Output>
       <Time>2010-09-04T20:45:52.642+01:00</Time>
     </Item>
+    <Item>
+      <Source>images\PeteWalking-01.png</Source>
+      <Name>images\PeteWalking-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\PeteWalking-01.xnb</Output>
+      <Time>2010-09-04T21:01:39.745+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\StevieStanding-01.png</Source>
+      <Name>images\StevieStanding-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\StevieStanding-01.xnb</Output>
+      <Time>2010-09-04T22:02:43.35+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\Fatality.png</Source>
+      <Name>images\Fatality</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\Fatality.xnb</Output>
+      <Time>2010-09-04T22:16:20.646+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\StevieWalking-01.png</Source>
+      <Name>images\StevieWalking-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\StevieWalking-01.xnb</Output>
+      <Time>2010-09-04T22:17:57.087+01:00</Time>
+    </Item>
+    <Item>
+      <Source>images\GagaSpecialMove-01.png</Source>
+      <Name>images\GagaSpecialMove-01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Dev\MortalSongbat\Game\bin\x86\Debug\data\images\GagaSpecialMove-01.xnb</Output>
+      <Time>2010-09-05T09:46:09.622+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

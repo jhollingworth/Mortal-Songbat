@@ -1,3 +1,4 @@
+using System;
 using GarageGames.Torque.GameUtil;
 using GarageGames.Torque.GUI;
 using MortalSongbat.GUI;
@@ -28,9 +29,13 @@ namespace MortalSongbat
             _myGame.Run();
         }
 
+        public SoundGroup Sounds { get; private set; }
+        public bool Finished { get; set; }
         protected override void BeginRun()
         {
             base.BeginRun();
+
+            Sounds = SoundManager.Instance.RegisterSoundGroup("Sounds", @"data/sounds/Wave Bank.xwb", @"data/sounds/Sound Bank.xsb");
 
         //    start by showing the GarageGames splash screen
             var splashScreen = new GuiMainMenu() ;

@@ -15,12 +15,12 @@
                     <class>T2DPhysicsMaterial</class>
                     <superclass></superclass>
                     <DynamicFieldCount>3</DynamicFieldCount>
-                    <DynamicFieldName0>Friction</DynamicFieldName0>
-                    <DynamicFieldValue0>0.3</DynamicFieldValue0>
-                    <DynamicFieldName1>priority</DynamicFieldName1>
-                    <DynamicFieldValue1>0</DynamicFieldValue1>
-                    <DynamicFieldName2>Restitution</DynamicFieldName2>
-                    <DynamicFieldValue2>1</DynamicFieldValue2>
+                    <DynamicFieldName0>priority</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>Restitution</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>Friction</DynamicFieldName2>
+                    <DynamicFieldValue2>0.3</DynamicFieldValue2>
                 </ScriptObject>
                 <t2dImageMapDatablock name="StageMaterial">
                     <imageMode>FULL</imageMode>
@@ -30,13 +30,13 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>4</DynamicFieldCount>
-                    <DynamicFieldName0>refractive</DynamicFieldName0>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
                     <DynamicFieldValue0>0</DynamicFieldValue0>
-                    <DynamicFieldName1>enableLighting</DynamicFieldName1>
+                    <DynamicFieldName1>refractive</DynamicFieldName1>
                     <DynamicFieldValue1>0</DynamicFieldValue1>
                     <DynamicFieldName2>additive</DynamicFieldName2>
                     <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>translucent</DynamicFieldName3>
+                    <DynamicFieldName3>enableLighting</DynamicFieldName3>
                     <DynamicFieldValue3>0</DynamicFieldValue3>
                     <imageName>data/images/Stage.jpg</imageName>
                 </t2dImageMapDatablock>
@@ -48,24 +48,24 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>9</DynamicFieldCount>
-                    <DynamicFieldName0>refractiveAmount</DynamicFieldName0>
-                    <DynamicFieldValue0>1</DynamicFieldValue0>
-                    <DynamicFieldName1>specularColor</DynamicFieldName1>
-                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
-                    <DynamicFieldName2>refractive</DynamicFieldName2>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
                     <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
-                    <DynamicFieldValue3>0</DynamicFieldValue3>
-                    <DynamicFieldName4>enableLighting</DynamicFieldName4>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
                     <DynamicFieldValue4>0</DynamicFieldValue4>
-                    <DynamicFieldName5>specularIntensity</DynamicFieldName5>
-                    <DynamicFieldValue5>1</DynamicFieldValue5>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
                     <DynamicFieldName6>additive</DynamicFieldName6>
                     <DynamicFieldValue6>0</DynamicFieldValue6>
-                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
                     <DynamicFieldValue7>0</DynamicFieldValue7>
-                    <DynamicFieldName8>specularPower</DynamicFieldName8>
-                    <DynamicFieldValue8>0</DynamicFieldValue8>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1</DynamicFieldValue8>
                     <imageName>data/images/ground.jpg</imageName>
                 </t2dImageMapDatablock>
                 <t2dImageMapDatablock name="gaga01Material">
@@ -87,24 +87,24 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>9</DynamicFieldCount>
-                    <DynamicFieldName0>refractiveAmount</DynamicFieldName0>
-                    <DynamicFieldValue0>1</DynamicFieldValue0>
-                    <DynamicFieldName1>specularColor</DynamicFieldName1>
-                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
-                    <DynamicFieldName2>refractive</DynamicFieldName2>
-                    <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
-                    <DynamicFieldValue3>0</DynamicFieldValue3>
-                    <DynamicFieldName4>enableLighting</DynamicFieldName4>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
                     <DynamicFieldValue4>0</DynamicFieldValue4>
-                    <DynamicFieldName5>specularIntensity</DynamicFieldName5>
-                    <DynamicFieldValue5>1.000</DynamicFieldValue5>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
                     <DynamicFieldName6>additive</DynamicFieldName6>
                     <DynamicFieldValue6>0</DynamicFieldValue6>
-                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
                     <DynamicFieldValue7>0</DynamicFieldValue7>
-                    <DynamicFieldName8>specularPower</DynamicFieldName8>
-                    <DynamicFieldValue8>0.000</DynamicFieldValue8>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
                     <imageName>data/images/gaga-01.png</imageName>
                 </t2dImageMapDatablock>
                 <t2dAnimationDatablock name="gagaWalking">
@@ -136,24 +136,24 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>9</DynamicFieldCount>
-                    <DynamicFieldName0>refractiveAmount</DynamicFieldName0>
-                    <DynamicFieldValue0>1</DynamicFieldValue0>
-                    <DynamicFieldName1>specularColor</DynamicFieldName1>
-                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
-                    <DynamicFieldName2>refractive</DynamicFieldName2>
-                    <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
-                    <DynamicFieldValue3>0</DynamicFieldValue3>
-                    <DynamicFieldName4>enableLighting</DynamicFieldName4>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
                     <DynamicFieldValue4>0</DynamicFieldValue4>
-                    <DynamicFieldName5>specularIntensity</DynamicFieldName5>
-                    <DynamicFieldValue5>1.000</DynamicFieldValue5>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
                     <DynamicFieldName6>additive</DynamicFieldName6>
                     <DynamicFieldValue6>0</DynamicFieldValue6>
-                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
                     <DynamicFieldValue7>0</DynamicFieldValue7>
-                    <DynamicFieldName8>specularPower</DynamicFieldName8>
-                    <DynamicFieldValue8>0.000</DynamicFieldValue8>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
                     <imageName>data/images/standingGaga-01.png</imageName>
                 </t2dImageMapDatablock>
                 <t2dAnimationDatablock name="gagaStanding">
@@ -174,24 +174,24 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>9</DynamicFieldCount>
-                    <DynamicFieldName0>refractiveAmount</DynamicFieldName0>
-                    <DynamicFieldValue0>1</DynamicFieldValue0>
-                    <DynamicFieldName1>specularColor</DynamicFieldName1>
-                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
-                    <DynamicFieldName2>refractive</DynamicFieldName2>
-                    <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
-                    <DynamicFieldValue3>0</DynamicFieldValue3>
-                    <DynamicFieldName4>enableLighting</DynamicFieldName4>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
                     <DynamicFieldValue4>0</DynamicFieldValue4>
-                    <DynamicFieldName5>specularIntensity</DynamicFieldName5>
-                    <DynamicFieldValue5>1.000</DynamicFieldValue5>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
                     <DynamicFieldName6>additive</DynamicFieldName6>
                     <DynamicFieldValue6>0</DynamicFieldValue6>
-                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
                     <DynamicFieldValue7>0</DynamicFieldValue7>
-                    <DynamicFieldName8>specularPower</DynamicFieldName8>
-                    <DynamicFieldValue8>0.000</DynamicFieldValue8>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
                     <imageName>data/images/wall.jpg</imageName>
                 </t2dImageMapDatablock>
                 <t2dImageMapDatablock name="TGB_RDT_PlantMaterial">
@@ -213,36 +213,26 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>9</DynamicFieldCount>
-                    <DynamicFieldName0>refractiveAmount</DynamicFieldName0>
-                    <DynamicFieldValue0>1</DynamicFieldValue0>
-                    <DynamicFieldName1>specularColor</DynamicFieldName1>
-                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
-                    <DynamicFieldName2>refractive</DynamicFieldName2>
-                    <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
-                    <DynamicFieldValue3>0</DynamicFieldValue3>
-                    <DynamicFieldName4>enableLighting</DynamicFieldName4>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
                     <DynamicFieldValue4>0</DynamicFieldValue4>
-                    <DynamicFieldName5>specularIntensity</DynamicFieldName5>
-                    <DynamicFieldValue5>1.000</DynamicFieldValue5>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
                     <DynamicFieldName6>additive</DynamicFieldName6>
                     <DynamicFieldValue6>0</DynamicFieldValue6>
-                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
                     <DynamicFieldValue7>0</DynamicFieldValue7>
-                    <DynamicFieldName8>specularPower</DynamicFieldName8>
-                    <DynamicFieldValue8>0.000</DynamicFieldValue8>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
                     <imageName>data/images/TGB_RDT_Plant.png</imageName>
                 </t2dImageMapDatablock>
-                <t2dAnimationDatablock name="gagaSpecialMove">
-                    <defaultConfig></defaultConfig>
-                    <imageMap>TGB_RDT_PlantMaterial</imageMap>
-                    <animationFrames>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</animationFrames>
-                    <animationTime>0.6</animationTime>
-                    <animationCycle>false</animationCycle>
-                    <randomStart>false</randomStart>
-                    <startFrame>0</startFrame>
-                    <DynamicFieldCount>0</DynamicFieldCount>
-                </t2dAnimationDatablock>
                 <t2dImageMapDatablock name="jacksonStanding01Material">
                     <imageMode>CELL</imageMode>
                     <frameCount>-1</frameCount>
@@ -262,24 +252,24 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>9</DynamicFieldCount>
-                    <DynamicFieldName0>refractiveAmount</DynamicFieldName0>
-                    <DynamicFieldValue0>1</DynamicFieldValue0>
-                    <DynamicFieldName1>specularColor</DynamicFieldName1>
-                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
-                    <DynamicFieldName2>refractive</DynamicFieldName2>
-                    <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
-                    <DynamicFieldValue3>0</DynamicFieldValue3>
-                    <DynamicFieldName4>enableLighting</DynamicFieldName4>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
                     <DynamicFieldValue4>0</DynamicFieldValue4>
-                    <DynamicFieldName5>specularIntensity</DynamicFieldName5>
-                    <DynamicFieldValue5>1.000</DynamicFieldValue5>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
                     <DynamicFieldName6>additive</DynamicFieldName6>
                     <DynamicFieldValue6>0</DynamicFieldValue6>
-                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
                     <DynamicFieldValue7>0</DynamicFieldValue7>
-                    <DynamicFieldName8>specularPower</DynamicFieldName8>
-                    <DynamicFieldValue8>0.000</DynamicFieldValue8>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
                     <imageName>data/images/jacksonStanding-01.png</imageName>
                 </t2dImageMapDatablock>
                 <t2dAnimationDatablock name="jacksonStanding">
@@ -311,24 +301,24 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>9</DynamicFieldCount>
-                    <DynamicFieldName0>refractiveAmount</DynamicFieldName0>
-                    <DynamicFieldValue0>1</DynamicFieldValue0>
-                    <DynamicFieldName1>specularColor</DynamicFieldName1>
-                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
-                    <DynamicFieldName2>refractive</DynamicFieldName2>
-                    <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
-                    <DynamicFieldValue3>1</DynamicFieldValue3>
-                    <DynamicFieldName4>enableLighting</DynamicFieldName4>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
                     <DynamicFieldValue4>0</DynamicFieldValue4>
-                    <DynamicFieldName5>specularIntensity</DynamicFieldName5>
-                    <DynamicFieldValue5>1.000</DynamicFieldValue5>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>1</DynamicFieldValue5>
                     <DynamicFieldName6>additive</DynamicFieldName6>
                     <DynamicFieldValue6>0</DynamicFieldValue6>
-                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
                     <DynamicFieldValue7>0</DynamicFieldValue7>
-                    <DynamicFieldName8>specularPower</DynamicFieldName8>
-                    <DynamicFieldValue8>0.000</DynamicFieldValue8>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
                     <imageName>data/images/JacksonWalking-01.png</imageName>
                 </t2dImageMapDatablock>
                 <t2dAnimationDatablock name="jacksonWalking">
@@ -360,24 +350,24 @@
                     <preload>true</preload>
                     <allowUnload>false</allowUnload>
                     <DynamicFieldCount>9</DynamicFieldCount>
-                    <DynamicFieldName0>refractiveAmount</DynamicFieldName0>
-                    <DynamicFieldValue0>1</DynamicFieldValue0>
-                    <DynamicFieldName1>specularColor</DynamicFieldName1>
-                    <DynamicFieldValue1>1 1 1 1</DynamicFieldValue1>
-                    <DynamicFieldName2>refractive</DynamicFieldName2>
-                    <DynamicFieldValue2>0</DynamicFieldValue2>
-                    <DynamicFieldName3>forceCelled</DynamicFieldName3>
-                    <DynamicFieldValue3>1</DynamicFieldValue3>
-                    <DynamicFieldName4>enableLighting</DynamicFieldName4>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
                     <DynamicFieldValue4>0</DynamicFieldValue4>
-                    <DynamicFieldName5>specularIntensity</DynamicFieldName5>
-                    <DynamicFieldValue5>1.000</DynamicFieldValue5>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>1</DynamicFieldValue5>
                     <DynamicFieldName6>additive</DynamicFieldName6>
                     <DynamicFieldValue6>0</DynamicFieldValue6>
-                    <DynamicFieldName7>translucent</DynamicFieldName7>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
                     <DynamicFieldValue7>0</DynamicFieldValue7>
-                    <DynamicFieldName8>specularPower</DynamicFieldName8>
-                    <DynamicFieldValue8>0.000</DynamicFieldValue8>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
                     <imageName>data/images/PeteStanding-01.png</imageName>
                 </t2dImageMapDatablock>
                 <t2dAnimationDatablock name="peteStanding">
@@ -386,6 +376,318 @@
                     <animationFrames>0 1 2 3</animationFrames>
                     <animationTime>0.5</animationTime>
                     <animationCycle>true</animationCycle>
+                    <randomStart>false</randomStart>
+                    <startFrame>0</startFrame>
+                    <DynamicFieldCount>0</DynamicFieldCount>
+                </t2dAnimationDatablock>
+                <t2dImageMapDatablock name="PeteWalking01Material">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>4</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>300</cellWidth>
+                    <cellHeight>500</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
+                    <DynamicFieldName6>additive</DynamicFieldName6>
+                    <DynamicFieldValue6>0</DynamicFieldValue6>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
+                    <imageName>data/images/PeteWalking-01.png</imageName>
+                </t2dImageMapDatablock>
+                <t2dAnimationDatablock name="peteWalking">
+                    <defaultConfig></defaultConfig>
+                    <imageMap>PeteWalking01Material</imageMap>
+                    <animationFrames>0 1 2 3</animationFrames>
+                    <animationTime>0.4</animationTime>
+                    <animationCycle>true</animationCycle>
+                    <randomStart>false</randomStart>
+                    <startFrame>0</startFrame>
+                    <DynamicFieldCount>0</DynamicFieldCount>
+                </t2dAnimationDatablock>
+                <t2dImageMapDatablock name="StevieStanding01Material">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>4</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>300</cellWidth>
+                    <cellHeight>500</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
+                    <DynamicFieldName6>additive</DynamicFieldName6>
+                    <DynamicFieldValue6>0</DynamicFieldValue6>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
+                    <imageName>data/images/StevieStanding-01.png</imageName>
+                </t2dImageMapDatablock>
+                <t2dAnimationDatablock name="steveStanding">
+                    <defaultConfig></defaultConfig>
+                    <imageMap>StevieStanding01Material</imageMap>
+                    <animationFrames>0 1 2 3</animationFrames>
+                    <animationTime>0.571429</animationTime>
+                    <animationCycle>true</animationCycle>
+                    <randomStart>false</randomStart>
+                    <startFrame>0</startFrame>
+                    <DynamicFieldCount>0</DynamicFieldCount>
+                </t2dAnimationDatablock>
+                <t2dImageMapDatablock name="Fatality">
+                    <imageMode>FULL</imageMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
+                    <DynamicFieldName6>additive</DynamicFieldName6>
+                    <DynamicFieldValue6>0</DynamicFieldValue6>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
+                    <imageName>data/images/Fatality.png</imageName>
+                </t2dImageMapDatablock>
+                <t2dImageMapDatablock name="StevieWalking01Material">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>4</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>300</cellWidth>
+                    <cellHeight>500</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>0</DynamicFieldValue5>
+                    <DynamicFieldName6>additive</DynamicFieldName6>
+                    <DynamicFieldValue6>0</DynamicFieldValue6>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
+                    <imageName>data/images/StevieWalking-01.png</imageName>
+                </t2dImageMapDatablock>
+                <t2dAnimationDatablock name="steveWalking">
+                    <defaultConfig></defaultConfig>
+                    <imageMap>StevieWalking01Material</imageMap>
+                    <animationFrames>0 1 2 3</animationFrames>
+                    <animationTime>0.4</animationTime>
+                    <animationCycle>true</animationCycle>
+                    <randomStart>false</randomStart>
+                    <startFrame>0</startFrame>
+                    <DynamicFieldCount>0</DynamicFieldCount>
+                </t2dAnimationDatablock>
+                <t2dImageMapDatablock name="FatalityMaterial">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>1</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>501</cellWidth>
+                    <cellHeight>87</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>1</DynamicFieldValue5>
+                    <DynamicFieldName6>additive</DynamicFieldName6>
+                    <DynamicFieldValue6>0</DynamicFieldValue6>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
+                    <imageName>data/images/Fatality.png</imageName>
+                </t2dImageMapDatablock>
+                <t2dAnimationDatablock name="Fatality1">
+                    <defaultConfig></defaultConfig>
+                    <imageMap>FatalityMaterial</imageMap>
+                    <animationFrames>0</animationFrames>
+                    <animationTime>0.0333333</animationTime>
+                    <animationCycle>true</animationCycle>
+                    <randomStart>false</randomStart>
+                    <startFrame>0</startFrame>
+                    <DynamicFieldCount>0</DynamicFieldCount>
+                </t2dAnimationDatablock>
+                <t2dImageMapDatablock name="GagaSpecialMove01Material">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>4</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>300</cellWidth>
+                    <cellHeight>500</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>specularColor</DynamicFieldName3>
+                    <DynamicFieldValue3>1 1 1 1</DynamicFieldValue3>
+                    <DynamicFieldName4>refractive</DynamicFieldName4>
+                    <DynamicFieldValue4>0</DynamicFieldValue4>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>1</DynamicFieldValue5>
+                    <DynamicFieldName6>additive</DynamicFieldName6>
+                    <DynamicFieldValue6>0</DynamicFieldValue6>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
+                    <imageName>data/images/GagaSpecialMove-01.png</imageName>
+                </t2dImageMapDatablock>
+                <t2dImageMapDatablock name="gagaspecialmove01Material1">
+                    <imageMode>CELL</imageMode>
+                    <frameCount>-1</frameCount>
+                    <filterMode>SMOOTH</filterMode>
+                    <filterPad>false</filterPad>
+                    <preferPerf>true</preferPerf>
+                    <cellRowOrder>true</cellRowOrder>
+                    <cellOffsetX>0</cellOffsetX>
+                    <cellOffsetY>0</cellOffsetY>
+                    <cellStrideX>0</cellStrideX>
+                    <cellStrideY>0</cellStrideY>
+                    <cellCountX>6</cellCountX>
+                    <cellCountY>1</cellCountY>
+                    <cellWidth>300</cellWidth>
+                    <cellHeight>500</cellHeight>
+                    <linkImageMaps></linkImageMaps>
+                    <preload>true</preload>
+                    <allowUnload>false</allowUnload>
+                    <DynamicFieldCount>9</DynamicFieldCount>
+                    <DynamicFieldName0>translucent</DynamicFieldName0>
+                    <DynamicFieldValue0>0</DynamicFieldValue0>
+                    <DynamicFieldName1>refractiveAmount</DynamicFieldName1>
+                    <DynamicFieldValue1>1</DynamicFieldValue1>
+                    <DynamicFieldName2>specularPower</DynamicFieldName2>
+                    <DynamicFieldValue2>0.000</DynamicFieldValue2>
+                    <DynamicFieldName3>refractive</DynamicFieldName3>
+                    <DynamicFieldValue3>0</DynamicFieldValue3>
+                    <DynamicFieldName4>specularColor</DynamicFieldName4>
+                    <DynamicFieldValue4>1 1 1 1</DynamicFieldValue4>
+                    <DynamicFieldName5>forceCelled</DynamicFieldName5>
+                    <DynamicFieldValue5>1</DynamicFieldValue5>
+                    <DynamicFieldName6>additive</DynamicFieldName6>
+                    <DynamicFieldValue6>0</DynamicFieldValue6>
+                    <DynamicFieldName7>enableLighting</DynamicFieldName7>
+                    <DynamicFieldValue7>0</DynamicFieldValue7>
+                    <DynamicFieldName8>specularIntensity</DynamicFieldName8>
+                    <DynamicFieldValue8>1.000</DynamicFieldValue8>
+                    <imageName>data/images/GagaSpecialMove-01.png</imageName>
+                </t2dImageMapDatablock>
+                <t2dAnimationDatablock name="gagaSpecialMove">
+                    <defaultConfig></defaultConfig>
+                    <imageMap>gagaspecialmove01Material1</imageMap>
+                    <animationFrames>0 1 2 3 4 5 3 2 1 0</animationFrames>
+                    <animationTime>1.11111</animationTime>
+                    <animationCycle>false</animationCycle>
                     <randomStart>false</randomStart>
                     <startFrame>0</startFrame>
                     <DynamicFieldCount>0</DynamicFieldCount>

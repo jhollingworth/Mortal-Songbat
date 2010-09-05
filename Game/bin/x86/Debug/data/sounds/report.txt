@@ -1,0 +1,231 @@
+General
+	Project = C:\Dev\MortalSongbat\Game\data\sounds\sounds.xap
+	Build Platform = Windows
+	Timestamp = Sun Sep 05 09:51:21 2010
+	Content Version = 45
+
+Referenced Variables (0)
+
+Referenced Categories (2)
+	Category = Global
+	Parent = <none>
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+
+	Category = Default
+	Parent = Global
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+
+Valid Cues (16)
+	round2
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	finishhim
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	flawlessvictory
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	gaga
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	gagaOpen
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	gagaSpecial
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	jackson
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	jacksonOpen
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	ludicrouskill
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	monsterkill
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	multikill
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	pete
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	peteOpen
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	round1
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	round3
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+	soundtrack
+	Sound Bank = Sound Bank
+	Interactive = Non-Interactive
+	Looping = Non-Looping
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+	Dependant Wave Banks = Wave Bank
+	Cue Instance Variables = <none>
+	Global Variables = <none>
+	Notes = <none>
+
+Referenced Wave Banks (1)
+	Wave Bank = Wave Bank
+	Type = In-Memory
+	Wave Names = Omitted
+	Num Waves = 16
+	Dependant Sound Banks = Sound Bank
+
+Sound Banks (1)
+	Sound Bank = Sound Bank
+	Cue Names = Included
+	Dependant Wave Banks = Wave Bank
+
+Unreferenced Waves (0)
+
+Unreferenced Sounds (0)
+
+Unreferenced Wave Banks (0)
+
+Unreferenced Variables (4)
+	Variable = OrientationAngle
+	Variable = DopplerPitchScalar
+	Variable = SpeedOfSound
+	Variable = Distance
+
+Unreferenced Categories (1)
+	Category = Music
+
+Unreferenced RPC Presets (0)
+
+Unreferenced DSP Presets (0)
+
+Invalid Cues (0)
+
+Invalid Sounds (0)
+

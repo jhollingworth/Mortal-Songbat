@@ -1,0 +1,85 @@
+General
+	Project = C:\Dev\MortalSongbat\Game\data\sound\sounds.xap
+	Build Platform = Windows
+	Timestamp = Sat Sep 04 21:26:44 2010
+	Content Version = 45
+
+Referenced Variables (0)
+
+Referenced Categories (2)
+	Category = Global
+	Parent = <none>
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+
+	Category = Default
+	Parent = Global
+	Instance Limit = <none>
+	Instance Limit Behavior = <none>
+
+Cues (0)
+
+Referenced Wave Banks (1)
+	Wave Bank = Wave Bank
+	Type = In-Memory
+	Wave Names = Omitted
+	Num Waves = 10
+	Dependant Sound Banks = Sound Bank
+
+Sound Banks (1)
+	Sound Bank = Sound Bank
+	Cue Names = Included
+	Dependant Wave Banks = Wave Bank
+
+Unreferenced Waves (0)
+
+Unreferenced Sounds (10)
+	Sound Bank = Sound Bank
+	Sound = finish-him
+
+	Sound Bank = Sound Bank
+	Sound = flawless-victory
+
+	Sound Bank = Sound Bank
+	Sound = gaga
+
+	Sound Bank = Sound Bank
+	Sound = hee-hee-hee
+
+	Sound Bank = Sound Bank
+	Sound = ludicrous-kill
+
+	Sound Bank = Sound Bank
+	Sound = monster-kill
+
+	Sound Bank = Sound Bank
+	Sound = multi-kill
+
+	Sound Bank = Sound Bank
+	Sound = penis-slap
+
+	Sound Bank = Sound Bank
+	Sound = sound-track
+
+	Sound Bank = Sound Bank
+	Sound = wicked-sick
+
+Unreferenced Wave Banks (0)
+
+Unreferenced Variables (4)
+	Variable = OrientationAngle
+	Variable = DopplerPitchScalar
+	Variable = SpeedOfSound
+	Variable = Distance
+
+Unreferenced Categories (1)
+	Category = Music
+
+Unreferenced RPC Presets (0)
+
+Unreferenced DSP Presets (0)
+
+Invalid Cues (0)
+
+Invalid Sounds (0)
+

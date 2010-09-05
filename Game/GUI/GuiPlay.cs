@@ -1,4 +1,5 @@
-﻿using GarageGames.Torque.Core;
+﻿using System.Threading;
+using GarageGames.Torque.Core;
 using GarageGames.Torque.GameUtil;
 using GarageGames.Torque.GUI;
 using GarageGames.Torque.MathUtil;
@@ -15,7 +16,7 @@ namespace MortalSongbat.GUI
         private readonly GUIText _player1Health;
         private readonly GUIText _player2Health;
         private readonly GUIBitmap _target;
-        private AiPlayer _aiPlayer;
+        public static AiPlayer PlayerAi;
 
         public GuiPlay()
         {
@@ -74,14 +75,66 @@ namespace MortalSongbat.GUI
             }
         }
 
+        public static T2DAnimatedSprite Fatality
+        {
+            get { return (T2DAnimatedSprite)TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Fatality"); }
+        }
+
+        public static T2DAnimatedSprite Player
+        {
+            get { return (T2DAnimatedSprite) TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player1"); }
+        }
+
+        public static T2DAnimatedSprite Ai
+        {
+            get { return (T2DAnimatedSprite)TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player2"); }
+        }
+
         public override void OnRender(Vector2 offset, RectangleF updateRect)
         {
-            var player = (T2DAnimatedSprite)TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player1");
-            var ai = (T2DAnimatedSprite)TorqueObjectDatabase.Instance.FindObject<T2DSceneObject>("Player2");
 
-            if(_aiPlayer == null)
+            if (Game.Instance.Finished)
             {
-                _aiPlayer = new AiPlayer(
+                base.OnRender(offset, updateRect);
+                return;
+            }
+
+            var player = Player;
+            var ai = Ai;
+
+            if(Game.Instance.PlayerHealth <= 0 || Game.Instance.AiHealth <= 0)
+            {
+                player.Visible = false;
+                ai.Visible = false;
+                Fatality.Visible = true;
+
+                switch (Game.Instance.Ai)
+                {
+                    case "pete":
+                        var sound = Game.Instance.Sounds.PlaySound("multikill");
+
+                        while (sound.IsPlaying)
+                        {
+                            Thread.Sleep(10);
+                        }
+
+                        Game.Instance.Sounds.PlaySound("wickedsick");
+                        break;
+                    case "micheal":
+                        Game.Instance.Sounds.PlaySound("monsterkill");
+                        break;
+                    case "steve":
+                        Game.Instance.Sounds.PlaySound("ludicrouskill");
+                        break;
+                }
+
+                Game.Instance.PlayerHealth = Game.Instance.AiHealth = 100;
+                Game.Instance.Finished = true;
+            }
+
+            if(PlayerAi == null)
+            {
+                PlayerAi = new AiPlayer(
                     ai,
                     player
                 );
@@ -97,7 +150,7 @@ namespace MortalSongbat.GUI
                 );
             }
 
-            _aiPlayer.Render();
+            PlayerAi.Render();
 
             var sceneObject = player;
 

@@ -106,6 +106,65 @@
                 <CellCountY>1</CellCountY>
             </TextureDivider>
         </SimpleMaterial>
+        <SimpleMaterial name="PeteWalking01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/PeteWalking-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="StevieStanding01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/StevieStanding-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="Fatality" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/Fatality.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+        </SimpleMaterial>
+        <SimpleMaterial name="StevieWalking01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/StevieWalking-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="FatalityMaterial" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/Fatality.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>1</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="GagaSpecialMove01Material" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/GagaSpecialMove-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>4</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
+        <SimpleMaterial name="gagaspecialmove01Material1" type="GarageGames.Torque.Materials.SimpleMaterial">
+            <TextureFilename>data/images/GagaSpecialMove-01.png</TextureFilename>
+            <IsTranslucent>false</IsTranslucent>
+            <IsAdditive>false</IsAdditive>
+            <TextureDivider type="GarageGames.Torque.Materials.CellCountDivider">
+                <CellCountX>6</CellCountX>
+                <CellCountY>1</CellCountY>
+            </TextureDivider>
+        </SimpleMaterial>
     </Materials>
     <Objects>
         <T2DCollisionMaterial name="DefaultCollisionMaterial">
@@ -125,12 +184,6 @@
             <AnimationDuration>0.5</AnimationDuration>
             <AnimationCycle>true</AnimationCycle>
         </AnimationData>
-        <AnimationData name="gagaSpecialMove">
-            <Material nameRef="TGB_RDT_PlantMaterial" />
-            <AnimationFrames>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17</AnimationFrames>
-            <AnimationDuration>0.6</AnimationDuration>
-            <AnimationCycle>false</AnimationCycle>
-        </AnimationData>
         <AnimationData name="jacksonStanding">
             <Material nameRef="jacksonStanding01Material" />
             <AnimationFrames>0 1 2 3</AnimationFrames>
@@ -148,6 +201,36 @@
             <AnimationFrames>0 1 2 3</AnimationFrames>
             <AnimationDuration>0.5</AnimationDuration>
             <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="peteWalking">
+            <Material nameRef="PeteWalking01Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.4</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="steveStanding">
+            <Material nameRef="StevieStanding01Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.571429</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="steveWalking">
+            <Material nameRef="StevieWalking01Material" />
+            <AnimationFrames>0 1 2 3</AnimationFrames>
+            <AnimationDuration>0.4</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="Fatality1">
+            <Material nameRef="FatalityMaterial" />
+            <AnimationFrames>0</AnimationFrames>
+            <AnimationDuration>0.0333333</AnimationDuration>
+            <AnimationCycle>true</AnimationCycle>
+        </AnimationData>
+        <AnimationData name="gagaSpecialMove">
+            <Material nameRef="gagaspecialmove01Material1" />
+            <AnimationFrames>0 1 2 3 4 5 3 2 1 0</AnimationFrames>
+            <AnimationDuration>1.11111</AnimationDuration>
+            <AnimationCycle>false</AnimationCycle>
         </AnimationData>
         <AnimatedSprite name="Player1">
             <CreateWithPhysics>false</CreateWithPhysics>
@@ -253,12 +336,12 @@
             <IsPersistent>false</IsPersistent>
             <Layer>0</Layer>
             <Size>
-                <X>20.000</X>
-                <Y>30.000</Y>
+                <X>35.000</X>
+                <Y>50.000</Y>
             </Size>
             <Position>
-                <X>-40.000</X>
-                <Y>21.980</Y>
+                <X>-34.443</X>
+                <Y>12.061</Y>
             </Position>
             <Rotation>0</Rotation>
             <CollisionsEnabled>true</CollisionsEnabled>
@@ -356,12 +439,12 @@
             <IsPersistent>false</IsPersistent>
             <Layer>0</Layer>
             <Size>
-                <X>20.000</X>
-                <Y>30.000</Y>
+                <X>35.000</X>
+                <Y>50.000</Y>
             </Size>
             <Position>
-                <X>38.681</X>
-                <Y>22.547</Y>
+                <X>29.167</X>
+                <Y>13.033</Y>
             </Position>
             <Rotation>0</Rotation>
             <CollisionsEnabled>true</CollisionsEnabled>
@@ -373,7 +456,7 @@
                 <X>0.000000</X>
                 <Y>0.000000</Y>
             </SortPoint>
-            <AnimationData nameRef="gagaWalking" />
+            <AnimationData nameRef="jacksonWalking" />
             <StartFrame>0</StartFrame>
             <RandomStart>false</RandomStart>
             <PlayOnLoad>true</PlayOnLoad>
@@ -639,5 +722,84 @@
             <Material nameRef="wallMaterial" />
             <MaterialRegionIndex>0</MaterialRegionIndex>
         </StaticSprite>
+        <AnimatedSprite name="Fatality">
+            <CreateWithPhysics>false</CreateWithPhysics>
+            <CreateWithCollision>false</CreateWithCollision>
+            <Components inPlace="true">
+                <T2DPhysicsComponent type="GarageGames.Torque.T2D.T2DPhysicsComponent">
+                    <Velocity>
+                        <X>0</X>
+                        <Y>0</Y>
+                    </Velocity>
+                    <AngularVelocity>0.0</AngularVelocity>
+                    <InverseMass>1.0</InverseMass>
+                    <RotationScale>1.0</RotationScale>
+                    <ProcessCollisionsAtRest>false</ProcessCollisionsAtRest>
+                </T2DPhysicsComponent>
+                <T2DCollisionComponent type="GarageGames.Torque.T2D.T2DCollisionComponent">
+                    <Images>
+                        <T2DPolyImage type="GarageGames.Torque.T2D.T2DPolyImage">
+                            <CollisionPolyBasis>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>-1.00000</X>
+                                    <Y>-1.00000</Y>
+                                </Vector2>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>1.00000</X>
+                                    <Y>-1.00000</Y>
+                                </Vector2>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>1.00000</X>
+                                    <Y>1.00000</Y>
+                                </Vector2>
+                                <Vector2 type="Microsoft.Xna.Framework.Vector2">
+                                    <X>-1.00000</X>
+                                    <Y>1.00000</Y>
+                                </Vector2>
+                            </CollisionPolyBasis>
+                            <CollisionPolyScale>
+                                <X>1</X>
+                                <Y>1</Y>
+                            </CollisionPolyScale>
+                        </T2DPolyImage>
+                    </Images>
+                    <RenderCollisionBounds>false</RenderCollisionBounds>
+                    <ResolveCollision valueOf="GarageGames.Torque.T2D.T2DPhysicsComponent.BounceCollision" />
+                    <SolveOverlap>true</SolveOverlap>
+                    <CollisionMaterial nameRef="DefaultCollisionMaterial" />
+                </T2DCollisionComponent>
+            </Components>
+            <ObjectType>
+                <object objTypeRef="t2dAnimatedSpriteType" />
+            </ObjectType>
+            <Pool>false</Pool>
+            <PoolWithComponents>false</PoolWithComponents>
+            <IsTemplate>false</IsTemplate>
+            <IsPersistent>false</IsPersistent>
+            <Layer>0</Layer>
+            <Size>
+                <X>62.625</X>
+                <Y>10.875</Y>
+            </Size>
+            <Position>
+                <X>0.000</X>
+                <Y>-18.000</Y>
+            </Position>
+            <Rotation>0</Rotation>
+            <CollisionsEnabled>true</CollisionsEnabled>
+            <Visible>false</Visible>
+            <VisibilityLevel>1</VisibilityLevel>
+            <FlipX>false</FlipX>
+            <FlipY>false</FlipY>
+            <SortPoint>
+                <X>0.000000</X>
+                <Y>0.000000</Y>
+            </SortPoint>
+            <AnimationData nameRef="Fatality1" />
+            <StartFrame>0</StartFrame>
+            <RandomStart>false</RandomStart>
+            <PlayOnLoad>true</PlayOnLoad>
+            <RemoveOnFinished>false</RemoveOnFinished>
+        </AnimatedSprite>
     </Objects>
 </TorqueSceneData>
